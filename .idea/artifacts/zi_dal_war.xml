@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zi-dal:war">
+    <output-path>$PROJECT_DIR$/zi-dal/target</output-path>
+    <root id="archive" name="zi-dal.war">
+      <element id="artifact" artifact-name="zi-dal:war exploded" />
+    </root>
+  </artifact>
+</component>
