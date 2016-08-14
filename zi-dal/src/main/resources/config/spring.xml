@@ -12,6 +12,7 @@
 
 
     <!-- 视图解析器:定义跳转的文件的前后缀 -->
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" />
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass"
@@ -48,7 +49,7 @@
         <property name="customArgumentResolvers">
             <list>
                 <!-- 启动自定义CmJsonObject注解 -->
-                <bean class="oa.admin.common.resolvers.CmJsonObjectResolvers"></bean>
+                <bean class="com.zi.resolvers.JsonResolvers"></bean>
             </list>
         </property>
     </bean>

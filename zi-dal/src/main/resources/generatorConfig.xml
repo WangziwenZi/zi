@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration >
+<classPathEntry location="E:\office\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar"/>
+  <context id="context1" >
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/leyeoa" userId="root" password="admin" />
+    <!--<javaTypeResolver >-->
+      <!--<property name="forceBigDecimals" value="false" />-->
+    <!--</javaTypeResolver>-->
+    <javaModelGenerator targetPackage="com.zi.dal.user.entity" targetProject="MAVEN" />
+    <sqlMapGenerator targetPackage="com.zi.dal.user.dao" targetProject="MAVEN" />
+    <javaClientGenerator targetPackage="com.zi.dal.user.dao" targetProject="MAVEN" type="XMLMAPPER" />
+    <table schema="user" tableName="user" ></table>
+  </context>
+</generatorConfiguration>
