@@ -3,6 +3,7 @@ package com.zi.service.impl;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.google.gson.JsonObject;
 import com.zi.dal.user.dao.UserMapper;
 import com.zi.dal.user.entity.User;
 import com.zi.dal.user.entity.UserExample;
@@ -21,7 +22,7 @@ public class UserServiceImpl implements UserServlce {
     @Autowired
     private UserMapper userMapper;
 
-    public PageInfo<User> createTable() {
+    public PageInfo<User> queryPage(JsonObject param) {
         UserExample example = new UserExample();
         PageHelper.startPage(1, 2);
         List<User> users = userMapper.selectByExample(example);
