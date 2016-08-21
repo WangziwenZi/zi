@@ -4,48 +4,17 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration >
 <classPathEntry location="C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar"/>
-  <context id="log" >
-    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/leyeoa" userId="root" password="" />
+  <context id="user" >
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/leyeoa" userId="root" password="admin" />
     <!--<javaTypeResolver >-->
       <!--<property name="forceBigDecimals" value="false" />-->
     <!--</javaTypeResolver>-->
-    <javaModelGenerator targetPackage="com.zi.dal.log.entity" targetProject="MAVEN" />
-    <sqlMapGenerator targetPackage="com.zi.dal.log.dao" targetProject="MAVEN" />
-    <javaClientGenerator targetPackage="com.zi.dal.log.dao" targetProject="MAVEN" type="XMLMAPPER" />
-    <table schema="log" tableName="log" ></table>
+    <javaModelGenerator targetPackage="com.zi.dal.user.entity" targetProject="MAVEN" />
+    <sqlMapGenerator targetPackage="com.zi.dal.user.dao" targetProject="MAVEN" />
+    <javaClientGenerator targetPackage="com.zi.dal.user.dao" targetProject="MAVEN" type="XMLMAPPER" />
+    <table schema="user" tableName="user" ></table>
   </context>
 
-  <context id="organization" >
-    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/leyeoa" userId="root" password="" />
-    <!--<javaTypeResolver >-->
-    <!--<property name="forceBigDecimals" value="false" />-->
-    <!--</javaTypeResolver>-->
-    <javaModelGenerator targetPackage="com.zi.dal.organization.entity" targetProject="MAVEN" />
-    <sqlMapGenerator targetPackage="com.zi.dal.organization.dao" targetProject="MAVEN" />
-    <javaClientGenerator targetPackage="com.zi.dal.organization.dao" targetProject="MAVEN" type="XMLMAPPER" />
-    <table schema="organization" tableName="organization" ></table>
-  </context>
-  <context id="right" >
-    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/leyeoa" userId="root" password="" />
-    <!--<javaTypeResolver >-->
-    <!--<property name="forceBigDecimals" value="false" />-->
-    <!--</javaTypeResolver>-->
-    <javaModelGenerator targetPackage="com.zi.dal.right.entity" targetProject="MAVEN" />
-    <sqlMapGenerator targetPackage="com.zi.dal.right.dao" targetProject="MAVEN" />
-    <javaClientGenerator targetPackage="com.zi.dal.right.dao" targetProject="MAVEN" type="XMLMAPPER" />
-    <table schema="right" tableName="right" ></table>
-  </context>
-
-  <context id="role" >
-    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/leyeoa" userId="root" password="" />
-    <!--<javaTypeResolver >-->
-    <!--<property name="forceBigDecimals" value="false" />-->
-    <!--</javaTypeResolver>-->
-    <javaModelGenerator targetPackage="com.zi.dal.role.entity" targetProject="MAVEN" />
-    <sqlMapGenerator targetPackage="com.zi.dal.role.dao" targetProject="MAVEN" />
-    <javaClientGenerator targetPackage="com.zi.dal.role.dao" targetProject="MAVEN" type="XMLMAPPER" />
-    <table schema="role" tableName="role" ></table>
-  </context>
 
 
 

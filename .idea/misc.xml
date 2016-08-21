@@ -6,6 +6,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="Osmorc" url="file://$USER_HOME$/Desktop/brettwooldridge-HikariCP-HikariCP-2.4.4-1-ga7e0d35/brettwooldridge-HikariCP-a7e0d35" />
     <file type="web" url="file://$PROJECT_DIR$/zi-dal" />
+    <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

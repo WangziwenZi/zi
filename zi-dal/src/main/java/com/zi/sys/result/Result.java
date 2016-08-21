@@ -5,6 +5,7 @@ package com.zi.sys.result;
  */
 
 import com.google.gson.Gson;
+import com.zi.sys.constant.StateCodeConstant;
 
 /**
  * 对外统一返回结果
@@ -13,6 +14,15 @@ public class Result {
     private boolean success = true;
     private Object data;
     private String errMsg;
+    private int code = StateCodeConstant.STATE_200;
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
 
     public boolean isSuccess() {
         return success;
