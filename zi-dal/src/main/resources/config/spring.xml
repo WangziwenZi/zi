@@ -62,5 +62,14 @@
     <mvc:annotation-driven enable-matrix-variables="true">
     </mvc:annotation-driven>
 
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <mvc:exclude-mapping path="/zi/base/user/sigin.htm"/>
+            <mvc:exclude-mapping path="/zi/base/user/login.htm"/>
+            <mvc:exclude-mapping path="/zi/base/user/register.htm"/>
+            <bean class="com.zi.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
 </beans>

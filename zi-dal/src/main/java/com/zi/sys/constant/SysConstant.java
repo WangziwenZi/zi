@@ -30,4 +30,8 @@ public class SysConstant {
      */
     public static final String TOTAL_PAGE = "total_page";
 
+    public static final String N = "N";
+
+    public static final String Y = "Y";
+
 }

@@ -14,7 +14,16 @@ public class Result {
     private boolean success = true;
     private Object data;
     private String errMsg;
+    private String message;
     private int code = StateCodeConstant.STATE_200;
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 
     public int getCode() {
         return code;

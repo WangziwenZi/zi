@@ -1,6 +1,7 @@
 package com.zi.controller;
 
 import com.google.common.base.Preconditions;
+import com.zi.dal.user.dao.UserMapper;
 import com.zi.dal.user.entity.User;
 import com.zi.dal.user.entity.UserExample;
 import com.zi.sys.factory.ServiceImplFactory;
@@ -23,7 +24,18 @@ import javax.servlet.http.HttpSession;
 @RequestMapping("/zi/base/user/")
 public class UserController extends ServiceImplFactory {
 
-    //    登录
+    @RequestMapping("login")
+    public String login() {
+        return "login";
+    }
+
+    /**
+     * @api {post} /zi/base/user/sigin.htm 登录接口
+     * @apiName sigin
+     * @apiGroup user
+     * @apiParam {String} email 用户名.
+     * @apiParam {String} password 密码.
+     */
     @RequestMapping(value = "sigin", method = RequestMethod.POST)
     @ResponseBody
     public Result sigin(User param, HttpServletRequest request) {
@@ -40,15 +52,28 @@ public class UserController extends ServiceImplFactory {
         return new Result();
     }
 
-    //    注册
-    @RequestMapping(value = "login", method = RequestMethod.POST)
+    /**
+     * @api {post} /zi/base/user/register.htm 注册接口
+     * @apiName register
+     * @apiGroup user
+     * @apiParam {String} email 用户名.
+     * @apiParam {String} password 密码.
+     * @apiParam {String} name 用户姓名.
+     * @apiParam {String} phone 手机号.
+     */
+    @RequestMapping(value = "register", method = RequestMethod.POST)
     @ResponseBody
-    public Result login(User user) {
+    public Result register(User user) {
         Preconditions.checkArgument(StringUtils.isNotBlank(user.getEmail()), StateCodeConstant.STATE_404);
         Preconditions.checkArgument(StringUtils.isNotBlank(user.getPassword()), StateCodeConstant.STATE_404);
         Preconditions.checkArgument(StringUtils.isNotBlank(user.getName()), StateCodeConstant.STATE_404);
         Preconditions.checkArgument(StringUtils.isNotBlank(user.getPhone()), StateCodeConstant.STATE_404);
+        UserExample example = new UserExample();
+        example.createCriteria().andEmailEqualTo(user.getEmail());
+        Preconditions.checkArgument(this.getUserServlce().queryOne(example) == null, StateCodeConstant.STATE_412);
         this.getUserServlce().insert(user);
-        return null;
+        Result result = new Result();
+        result.setMessage("注册成功");
+        return result;
     }
 }

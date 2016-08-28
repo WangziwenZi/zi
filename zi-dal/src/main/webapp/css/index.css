@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(/images/bg_blue.png);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
+    -o-background-size: cover; /* 兼容Opera */
+    font: 12px/1.5 "Microsoft YaHei", tahoma, arial, Hiragino Sans GB,
+    \5b8b\4f53;
+}
+
+#head {
+    width: 100%;
+}
+
+#head div {
+    background: #FFF;
+}
+
+#head div a {
+    margin: 10px;
+    width: 130px;
+}
+
+#head div a img {
+    width: 220px;
+    height: 100px;
+    border:0px;
+}
+
+#head div.user {
+    width: 200px;
+    margin: 10px;
+}
+
+#left {
+    width: 220px;
+    border: 1px solid rebeccapurple;
+}

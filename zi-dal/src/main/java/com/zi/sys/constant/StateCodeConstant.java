@@ -79,4 +79,7 @@ public class StateCodeConstant {
 
     /*412 （未满足前提条件）*/
     public static int STATE_412 = 412;
+
+    /*401 登录未授权*/
+    public static int STATE_401= 401;
 }

@@ -20,6 +20,7 @@
                 url:"/zi/base/user/sigin.htm",
                 type:"post",
                 dataType:"json",
+                data:{'email':'111','password':'111'},
                 success:function (data) {
                     if (data.success){
                         alert("登录成功");
