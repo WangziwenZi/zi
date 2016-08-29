@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     background: url(/images/bg_blue.png);
@@ -10,6 +10,12 @@ body{
     \5b8b\4f53;
 }
 
+nav, ul, li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
 #head {
     width: 100%;
 }
@@ -18,15 +24,16 @@ body{
     background: #FFF;
 }
 
-#head div a {
-    margin: 10px;
-    width: 130px;
+#head div > a {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 4.4em;
 }
 
-#head div a img {
+#head div > a img {
     width: 220px;
-    height: 100px;
-    border:0px;
+    height: 80px;
+    border: 0px;
 }
 
 #head div.user {
@@ -36,5 +43,41 @@ body{
 
 #left {
     width: 220px;
-    border: 1px solid rebeccapurple;
+    /*border: 1px solid rebeccapurple;*/
 }
+
+.big_title {
+    margin-top: 2.2em;
+    display: inline;
+}
+
+.big_menu {
+
+}
+
+.big_menu li {
+    margin: 0px 10px;
+    float: left;
+}
+
+.big_menu a {
+    margin-top: 2.7em;
+    display: inline;
+    font-family: "Ek Mukta", sans-serif;
+    font-weight: 600;
+    font-size: 1.14em;
+    padding: 0 0.90625em 0.125em;
+    color: #647980;
+    transition: 0.2s color ease-out, 0.2s background-color ease-out;
+    background: no-repeat right 57px;
+}
+
+.big_menu li > a {
+    display: block;
+
+    text-decoration: none;
+    background-image: url(/images/arrow-menu.svg);
+    background-repeat: no-repeat;
+    background-position: right 8px;
+}
+

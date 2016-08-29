@@ -9,3 +9,13 @@
 .float-none {
     display: block;
 }
+
+.clear::after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.clear{
+    zoom: 1;
+}

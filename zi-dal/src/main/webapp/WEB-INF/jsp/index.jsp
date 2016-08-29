@@ -15,12 +15,21 @@
 </head>
 <body>
 
-<div id="head">
-    <div>
-        <a href="javascript:void(0)">
-            <img src="/images/logo-jqwidgets.svg">
+<div id="head" class="clear">
+    <div class="clear">
+        <a href="javascript:void(0)" class="float-left">
+            <img src="/images/logo-jqwidgets.svg"/>
         </a>
-
+        <div class="big_menu float-left clear">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)">用户管理</a>
+                    </li>
+                    <li><a href="javascript:void(0)">公司管理</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </div>
 <div id="left">

@@ -2,156 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63092db8-e5c9-40d3-b981-a49f5b1322ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/img/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/images/bg_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/apidoc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/IndexController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/log/entity/LogWithBLOBs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/entity/Menu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/entity/MenuExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/LoginInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/MenuService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/MenuServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/exception/UserNotLoginException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/api_data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/api_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/api_project.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/api_project.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/locale.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/pt_br.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/zh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/locales/zh_cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/utils/handlebars_helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/utils/send_sample_request.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/diff_match_patch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/handlebars.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/lodash.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/path-to-regexp/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/path-to-regexp/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/polyfill.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-apollo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-clj.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-dart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-erlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-hs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-lisp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-llvm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-lua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-matlab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-ml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-mumps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-n.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-pascal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-proto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-rd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-scala.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-tcl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-tex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-vb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-vhdl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-wiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-xq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/lang-yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/prettify/run_prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/require.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/semver.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/doc/vendor/webfontloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/images/logo-jqwidgets.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/images/arrow-menu.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/zi_dal_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/zi_dal_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_1_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_1_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/group/dao/GroupMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/group/dao/GroupMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/group/dao/GroupMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/group/dao/GroupMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/group/entity/Group.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/group/entity/Group.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/group/entity/GroupExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/group/entity/GroupExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/log/dao/LogMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/log/dao/LogMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/log/dao/LogMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/log/dao/LogMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/log/entity/Log.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/log/entity/Log.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/log/entity/LogExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/log/entity/LogExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/organization/dao/OrganizationMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/organization/dao/OrganizationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/organization/dao/OrganizationMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/organization/dao/OrganizationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/organization/entity/Organization.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/organization/entity/Organization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/organization/entity/OrganizationExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/organization/entity/OrganizationExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/right/dao/GroupRightRelationMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/right/dao/GroupRightRelationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/right/dao/GroupRightRelationMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/right/dao/GroupRightRelationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/right/entity/GroupRightRelation.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/right/entity/GroupRightRelation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/right/entity/GroupRightRelationExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/right/entity/GroupRightRelationExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/role/dao/GroupRoleRelationMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/role/dao/GroupRoleRelationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/role/dao/GroupRoleRelationMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/role/dao/GroupRoleRelationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/role/entity/GroupRoleRelation.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/role/entity/GroupRoleRelation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/role/entity/GroupRoleRelationExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/role/entity/GroupRoleRelationExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/role/right/dao/RoleRightRelationMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/role/right/dao/RoleRightRelationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/role/right/dao/RoleRightRelationMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/role/right/dao/RoleRightRelationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/role/right/entity/RoleRightRelation.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/role/right/entity/RoleRightRelation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/role/right/entity/RoleRightRelationExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/role/right/entity/RoleRightRelationExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/group/dao/UserGroupRelationMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/group/dao/UserGroupRelationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/group/dao/UserGroupRelationMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/group/dao/UserGroupRelationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/group/entity/UserGroupRelation.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/group/entity/UserGroupRelation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/group/entity/UserGroupRelationExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/group/entity/UserGroupRelationExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/right/dao/UserRightRelationMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/right/dao/UserRightRelationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/right/dao/UserRightRelationMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/right/dao/UserRightRelationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/right/entity/UserRightRelation.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/right/entity/UserRightRelation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/right/entity/UserRightRelationExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/right/entity/UserRightRelationExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/role/dao/UserRoleRelationMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/role/dao/UserRoleRelationMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/role/dao/UserRoleRelationMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/role/dao/UserRoleRelationMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/role/entity/UserRoleRelation.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/role/entity/UserRoleRelation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/role/entity/UserRoleRelationExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/user/role/entity/UserRoleRelationExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/right/dao/RightMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/right/dao/RightMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/right/dao/RightMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/right/dao/RightMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/right/entity/Right.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/right/entity/Right.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/right/entity/RightExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/right/entity/RightExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/role/dao/RoleMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/role/dao/RoleMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/role/dao/RoleMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/role/dao/RoleMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/role/entity/Role.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/role/entity/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/role/entity/RoleExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/role/entity/RoleExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/dao/UserMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/dao/UserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/dao/UserMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/dao/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/entity/User.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/entity/UserExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/entity/UserExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/advice/GlobalExceptionHandler.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/advice/GlobalExceptionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/StateCodeConstant.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/StateCodeConstant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/result/Result.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/result/Result.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/entity/Menu.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/entity/Menu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/entity/MenuExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/entity/MenuExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/webapp/css/base.css" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/webapp/css/index.css" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/zi-dal.iml" afterPath="$PROJECT_DIR$/zi-dal/zi-dal.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi.iml" afterPath="$PROJECT_DIR$/zi.iml" />
     </list>
     <ignored path="zi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -175,7 +80,38 @@
     <favorites_list name="zi" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -225,9 +161,6 @@
         <option value="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/advice/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/css/base.css" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/css/index.css" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/js/index.js" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java" />
@@ -242,11 +175,14 @@
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/right/dao/GroupRightRelationMapper.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/role/right/dao/RoleRightRelationMapper.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/dao/UserMapper.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/entity/User.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/entity/Menu.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/css/base.css" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/css/index.css" />
       </list>
     </option>
   </component>
@@ -279,10 +215,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -336,7 +272,6 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -383,77 +318,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated-sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated-sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -479,7 +352,127 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,125 +503,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -644,19 +524,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/wangziwen/zi/zi-dal/src/main/java/com/zi/controller/UserController.java" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\wangziwen\zi\zi-dal\src\main\resources\config" />
+      <recent name="F:\wangziwen\zi\zi-dal\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\wangziwen\zi\zi-dal\src\main\java\com\zi\dal" />
       <recent name="F:\wangziwen\zi\zi-dal\src\main\webapp\images" />
+      <recent name="F:\wangziwen\zi\zi-dal\src\main\java\com\zi\dal" />
       <recent name="F:\wangziwen\zi\zi-dal\src\main\webapp\js" />
       <recent name="F:\wangziwen\zi\zi-dal\src\main\resources\mapper" />
       <recent name="F:\wangziwen\zi\zi-dal\src\main\java\com\zi\dal\user\dao" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\wangziwen\zi\zi-dal\src\main\resources\config" />
-      <recent name="F:\wangziwen\zi\zi-dal\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.zi-dal">
@@ -1220,6 +1100,7 @@
       <workItem from="1472260620321" duration="4166000" />
       <workItem from="1472343736829" duration="1807000" />
       <workItem from="1472345777971" duration="27926000" />
+      <workItem from="1472469965007" duration="7177000" />
     </task>
     <task id="LOCAL-00001" summary="增加权限实体类">
       <created>1471344986779</created>
@@ -1246,10 +1127,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185403000" />
+    <option name="totallyTimeSpent" value="192580000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1258,22 +1139,22 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649842" sideWeight="0.557101" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34700316" sideWeight="0.5387994" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21661721" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18993506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.215959" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18927445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.49283668" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25296736" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426062" sideWeight="0.49033818" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23426062" sideWeight="0.50966185" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34902596" sideWeight="0.48243046" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34700316" sideWeight="0.4612006" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1319,13 +1200,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/lang/IllegalArgumentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Preconditions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1359,7 +1233,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,7 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +1271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1415,23 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-361">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,15 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1455,7 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1471,9 +1315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1481,23 +1322,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/InsertPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/InsertPlugin.java" />
     <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1505,7 +1337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1513,7 +1344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1521,7 +1351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,26 +1358,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/common/BaseCommon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/common/BaseCommon.java" />
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.1.RELEASE/spring-web-4.3.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1568,22 +1385,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="161" column="11" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="11" />
-          <folding>
-            <element signature="e#6336#6337#0" expanded="false" />
-            <element signature="e#6384#6385#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1591,9 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1601,7 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1619,9 +1420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1637,7 +1435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1645,7 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1653,7 +1449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1661,7 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1669,7 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1677,7 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1685,7 +1477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1693,45 +1484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1472383587565" expanded="true" signature="6247:6395" ph="select , fro... " />
-            <marker date="1472383587565" expanded="true" signature="6677:6732" ph="delete from " />
-            <marker date="1472383587565" expanded="true" signature="7031:7048" ph="delete from " />
-            <marker date="1472383587565" expanded="true" signature="7424:7818" ph="insert into group... " />
-            <marker date="1472383587565" expanded="true" signature="9829:9855" ph="select count... group" />
-            <marker date="1472383587565" expanded="true" signature="11540:12001" ph="update group... " />
-            <marker date="1472383587565" expanded="true" signature="12370:12767" ph="update group... " />
-            <marker date="1472383587565" expanded="true" signature="13174:13960" ph="update group... " />
-            <marker date="1472383587565" expanded="true" signature="14264:14672" ph="update group... " />
-            <marker date="1472383587565" expanded="true" signature="14967:15318" ph="update group... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="192" column="4" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="4" />
-          <folding>
-            <marker date="1472383850760" expanded="true" signature="6196:6343" ph="select , fro... " />
-            <marker date="1472383850760" expanded="true" signature="6625:6679" ph="delete from " />
-            <marker date="1472383850760" expanded="true" signature="6976:6992" ph="delete from " />
-            <marker date="1472383850760" expanded="true" signature="7499:7867" ph="insert into menu... " />
-            <marker date="1472383850760" expanded="true" signature="9959:9984" ph="select count... menu" />
-            <marker date="1472383850760" expanded="true" signature="11632:12067" ph="update menu " />
-            <marker date="1472383850760" expanded="true" signature="12436:12807" ph="update menu " />
-            <marker date="1472383850760" expanded="true" signature="13212:13961" ph="update menu " />
-            <marker date="1472383850760" expanded="true" signature="14263:14645" ph="update menu " />
-            <marker date="1472383850760" expanded="true" signature="14938:15263" ph="update menu " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1739,28 +1491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="221" column="16" selection-start-line="221" selection-start-column="16" selection-end-line="221" selection-end-column="16" />
-          <folding>
-            <marker date="1472383885310" expanded="true" signature="6929:7076" ph="select , fro... " />
-            <marker date="1472383885310" expanded="true" signature="7358:7412" ph="delete from " />
-            <marker date="1472383885310" expanded="true" signature="7709:7725" ph="delete from " />
-            <marker date="1472383885310" expanded="true" signature="8232:8995" ph="insert into user... " />
-            <marker date="1472383885310" expanded="true" signature="12432:12457" ph="select count... user" />
-            <marker date="1472383885310" expanded="true" signature="15089:16003" ph="update user " />
-            <marker date="1472383885310" expanded="true" signature="16372:17222" ph="update user " />
-            <marker date="1472383885310" expanded="true" signature="17627:19234" ph="update user " />
-            <marker date="1472383885310" expanded="true" signature="19536:20334" ph="update user " />
-            <marker date="1472383885310" expanded="true" signature="20627:21368" ph="update user " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/entity/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1768,9 +1498,83 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="94" column="15" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/entity/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="210" column="29" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
+          <folding>
+            <marker date="1472470218442" expanded="true" signature="6280:6427" ph="select , fro... " />
+            <marker date="1472470218442" expanded="true" signature="6709:6763" ph="delete from " />
+            <marker date="1472470218442" expanded="true" signature="7060:7076" ph="delete from " />
+            <marker date="1472470218442" expanded="true" signature="7583:8006" ph="insert into menu... " />
+            <marker date="1472470218442" expanded="true" signature="10251:10276" ph="select count... menu" />
+            <marker date="1472470218442" expanded="true" signature="12036:12526" ph="update menu " />
+            <marker date="1472470218442" expanded="true" signature="12895:13321" ph="update menu " />
+            <marker date="1472470218442" expanded="true" signature="13726:14573" ph="update menu " />
+            <marker date="1472470218442" expanded="true" signature="14875:15305" ph="update menu " />
+            <marker date="1472470218442" expanded="true" signature="15598:15971" ph="update menu " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/images/arrow-menu.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
