@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>WebSocket 客户端</title>
+    <link href="/js/Public/css/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="/js/Public/css/bootstrap/css/bootstrap-ie6.css">
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" type="text/css" href="/js/Public/css/bootstrap/css/ie.css?2025">
+    <![endif]-->
+    <link href="/js/Public/css/site.css?2025" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="/js/Public/js/flowdesign/flowdesign.css"/>
+    <!--select 2-->
+    <link rel="stylesheet" type="text/css"
+          href="/js/Public/js/jquery.multiselect2side/css/jquery.multiselect2side.css"/>
+
+    <script charset="utf-8" src="/js/Public/js/jquery-1.7.2.min.js"></script>
+    <script src="/js/Public/css/bootstrap/js/bootstrap.min.js"></script>
+    <!--//JQuery Ui < 2.x.x-->
+    <script src="/js/Public/js/jquery-ui/jquery-ui-1.9.2-min.js"></script>
+    <!--//1.3.16 兼容性最好-->
+    <script src="/js/Public/js/jsPlumb/jquery.jsPlumb-1.3.16-all-min.js"></script>
+    <!--//右键菜单-->
+    <script src="/js/Public/js/jquery.contextmenu.r2.js"></script>
+    <!--//下拉列表选择器-->
+    <script src="/js/Public/js/jquery.multiselect2side/js/jquery.multiselect2side.js"></script>
+    <!--//表单设计器，必须包括以上的JS-->
+    <script src="/js/Public/js/flowdesign/leipi.flowdesign.v3.js"></script>
+    <script src="/js/Public/process.js"></script>
+    <style>
+        .outer {
+            fill: gray;
+            opacity: 0.3;
+        }
+
+        svg {
+            position: absolute;
+            stroke: none;
+            fill: #234b5e;
+            left: 0px;
+            top: 0px;
+        }
+
+        text {
+            stroke: none;
+            fill: #f7ebca;
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+        }
+
+        .jtk-overlay {
+            background: rgb(58, 65, 68) url(/js/Public/images/grid.png) repeat;
+            color: #FFF;
+            font-weight: 400;
+            padding: 4px;
+            z-index: 10;
+            cursor: pointer;
+        }
+        ._jsPlumb_connector{cursor: pointer;}
+    </style>
+</head>
+<body>
+<!--contextmenu div-->
+<div id="processMenu" style="display:none;">
+    <ul>
+        <li id="pmAttribute"><i class="icon-cog"></i>&nbsp;<span class="_label">属性</span></li>
+        <li id="pmForm"><i class="icon-th"></i>&nbsp;<span class="_label">表单字段</span></li>
+        <li id="pmJudge"><i class="icon-share-alt"></i>&nbsp;<span class="_label">转出条件</span></li>
+        <li id="pmSetting"><i class=" icon-wrench"></i>&nbsp;<span class="_label">样式</span></li>
+        <li id="pmDelete"><i class="icon-trash"></i>&nbsp;<span class="_label">删除</span></li>
+
+    </ul>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+            <div class="modal-body">
+                <form id="alertForm">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary save" data-dismiss="modal">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="canvasMenu" style="display:none;">
+    <ul>
+        <li id="cmSave"><i class="icon-ok"></i>&nbsp;<span class="_label">保存设计</span></li>
+        <li id="cmAdd"><i class="icon-plus"></i>&nbsp;<span class="_label">添加步骤</span></li>
+        <li id="cmRefresh"><i class="icon-refresh"></i>&nbsp;<span class="_label">刷新 F5</span></li>
+        <!--li id="cmPaste"><i class="icon-share"></i>&nbsp;<span class="_label">粘贴</span></li-->
+        <li id="cmHelp"><i class="icon-search"></i>&nbsp;<span class="_label">帮助</span></li>
+    </ul>
+</div>
+<!--end div-->
+<div class="container mini-layout" id="flowdesign_canvas">
+    <!--div class="process-step btn" style="left: 189px; top: 340px;"><span class="process-num badge badge-inverse"><i class="icon-star icon-white"></i>3</span> 步骤3</div-->
+</div> <!-- /container -->
+</body>
+<script type="text/javascript">
+    function init(){
+        /*创建流程设计器 和 配置说明*/
+        var _canvas = $("#flowdesign_canvas").Flowdesign({
+            processData: {
+                "total": 5,
+                "list": [{
+                    "id": "61",
+                    "flow_id": "4",
+                    "process_name": "\u53d1\u8d77\u7533\u8bf7",
+                    "process_to": "63,64",
+                    "icon":"oval",
+                    "style": "left:193px;top:132px;"
+                }, {
+                    "id": "62",
+                    "flow_id": "4",
+                    "process_name": "\u5ba1\u62792",
+                    "process_to": "65",
+                    "icon":"square",
+                    "style": "left:486px;top:337px;"
+                }, {
+                    "id": "63",
+                    "flow_id": "4",
+                    "process_name": "\u5feb\u6377\u5ba1\u6279",
+                    "process_to": "65",
+                    "icon":"square",
+                    "style": "left:193px;top:472px;"
+                }, {
+                    "id": "64",
+                    "flow_id": "4",
+                    "process_name": "\u5ba1\u62791",
+                    "process_to": "62,65",
+                    "icon":"rhombus",
+                    "style": "left:486px;top:137px;"
+                }, {
+                    "id": "65",
+                    "flow_id": "4",
+                    "process_name": "\u5f52\u6863\u6574\u7406\u4eba",
+                    "process_to": "",
+                    "icon":"square",
+                    "style": "left:738px;top:472px;"
+                }]
+            },//步骤步骤数据
+            fnRepeat: function () {
+                alert("步骤连接重复");
+            },
+            fnClick: function () {
+            },
+            fnDbClick: function () {
+                alert("双击");
+            },
+            canvasMenus: {
+                "cmAdd": function (t) {
+                    methods.alertTitle("添加步骤");
+                    $('#alertForm').Process("addProcessTemplate");
+                    $('#myModal').modal('toggle');
+//                绑定保存按钮
+                    $(".save").unbind("click");
+                    $(".save").bind("click", function () {
+                        var process = $("#alertForm").Process("getForm",true).data();
+                        _canvas.addProcess({
+                            "id": process.processId,//当前步骤ID
+                            "flow_id": "",//所属流程ID
+                            "process_name": process.name,//步骤名称
+                            "process_to": "",//下一步 多个用 逗号隔开
+                            "icon": process.type //图标
+                        })
+                    });
+                }
+            },
+            processMenus: {
+                "cmAdd": function (t) {
+                    _canvas.addProcess({
+                        "id": "40",//当前步骤ID
+                        "flow_id": "8",//所属流程ID
+                        "process_name": "40",//步骤名称
+                        "process_to": "",//下一步 多个用 逗号隔开
+                        "icon": "icon-retweet",//图标
+                        "style": "left:183px;top:168px;color:#0e76a8;"//样式
+                    })
+                }
+            },
+            /*右键菜单样式*/
+            menuStyle: {
+                border: '1px solid #5a6377',
+                minWidth: '150px',
+                padding: '5px 0'
+            },
+            itemStyle: {
+                fontFamily: 'verdana',
+                color: '#333',
+                border: '0',
+                /*borderLeft:'5px solid #fff',*/
+                padding: '5px 40px 5px 20px'
+            },
+            itemHoverStyle: {
+                border: '0',
+                /*borderLeft:'5px solid #49afcd',*/
+                color: '#fff',
+                backgroundColor: '#5a6377'
+            },
+            //这是连接线路的绘画样式
+            connectorPaintStyle: {
+                lineWidth: 3,
+                strokeStyle: "#49afcd",
+                joinstyle: "round"
+            },
+            //鼠标经过样式
+            connectorHoverStyle: {
+                lineWidth: 3,
+                strokeStyle: "#da4f49"
+            }
+        });
+    }
+
+
+    methods = {
+        alertTitle: function (title) {
+            $("#myModalLabel").html(title);
+        }
+    }
+
+    function main(){
+        methods.alertTitle("流程基本信息");
+        $("#alertForm").Process("processInfo");
+        $('#myModal').modal('toggle');
+    }
+
+//    main();
+init();
+</script>
+</html>

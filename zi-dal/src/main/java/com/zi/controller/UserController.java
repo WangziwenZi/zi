@@ -9,6 +9,13 @@ import com.zi.sys.constant.StateCodeConstant;
 import com.zi.sys.constant.SysConstant;
 import com.zi.sys.result.Result;
 import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang.SystemUtils;
+import org.apache.commons.lang.builder.ReflectionToStringBuilder;
+import org.apache.commons.lang.builder.ToStringStyle;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.UnknownAccountException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -41,14 +48,25 @@ public class UserController extends ServiceImplFactory {
     public Result sigin(User param, HttpServletRequest request) {
 //        账户密码空值判断
         Preconditions.checkArgument((StringUtils.isNotBlank(param.getEmail()) && StringUtils.isNotBlank(param.getPassword())), StateCodeConstant.STATE_404);
-        UserExample example = new UserExample();
-        UserExample.Criteria criteria = example.createCriteria();
-        criteria.andEmailEqualTo(param.getEmail());
-        criteria.andPasswordEqualTo(param.getPassword());
-        User user = this.getUserServlce().queryOne(example);
-        Preconditions.checkArgument(user != null, StateCodeConstant.STATE_404);
-        HttpSession session = request.getSession();
-        session.setAttribute(SysConstant.THE_LANDING_USER, user);
+//        UserExample example = new UserExample();
+//        UserExample.Criteria criteria = example.createCriteria();
+//        criteria.andEmailEqualTo(param.getEmail());
+//        criteria.andPasswordEqualTo(param.getPassword());
+//        User user = this.getUserServlce().queryOne(example);
+//        Preconditions.checkArgument(user != null, StateCodeConstant.STATE_404);
+        /*HttpSession session = request.getSession();
+        session.setAttribute(SysConstant.THE_LANDING_USER, user);*/
+        UsernamePasswordToken token = new UsernamePasswordToken(param.getEmail(), param.getPassword());
+        token.setRememberMe(true);
+        System.out.println("为了验证登录用户而封装的token："+ ReflectionToStringBuilder.toString(token, ToStringStyle.MULTI_LINE_STYLE));
+        Subject currentUser = SecurityUtils.getSubject();
+        try {
+            System.out.println("对用户[" + param.getEmail() + "]进行登录验证..验证开始");
+            currentUser.login(token);
+            System.out.println("对用户[" + param.getEmail() + "]进行登录验证..验证通过");
+        }catch (UnknownAccountException e){
+            System.out.println("权限验证失败");
+        }
         return new Result();
     }
 

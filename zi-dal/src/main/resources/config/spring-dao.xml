@@ -12,6 +12,8 @@
     <!--引入属性文件 -->
     <context:property-placeholder location="classpath:config.properties"/>
 
+    <!-- 引用shiro配置文件 -->
+    <import resource="classpath:config/spring-shiro.xml"/>
 
     <!-- 配置数据源 -->
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
