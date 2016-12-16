@@ -48,14 +48,14 @@ public class UserController extends ServiceImplFactory {
     public Result sigin(User param, HttpServletRequest request) {
 //        账户密码空值判断
         Preconditions.checkArgument((StringUtils.isNotBlank(param.getEmail()) && StringUtils.isNotBlank(param.getPassword())), StateCodeConstant.STATE_404);
-//        UserExample example = new UserExample();
-//        UserExample.Criteria criteria = example.createCriteria();
-//        criteria.andEmailEqualTo(param.getEmail());
-//        criteria.andPasswordEqualTo(param.getPassword());
-//        User user = this.getUserServlce().queryOne(example);
-//        Preconditions.checkArgument(user != null, StateCodeConstant.STATE_404);
-        /*HttpSession session = request.getSession();
-        session.setAttribute(SysConstant.THE_LANDING_USER, user);*/
+        UserExample example = new UserExample();
+        UserExample.Criteria criteria = example.createCriteria();
+        criteria.andEmailEqualTo(param.getEmail());
+        criteria.andPasswordEqualTo(param.getPassword());
+        User user = this.getUserServlce().queryOne(example);
+        Preconditions.checkArgument(user != null, StateCodeConstant.STATE_404);
+        HttpSession session = request.getSession();
+        session.setAttribute(SysConstant.THE_LANDING_USER, user);
         UsernamePasswordToken token = new UsernamePasswordToken(param.getEmail(), param.getPassword());
         token.setRememberMe(true);
         System.out.println("为了验证登录用户而封装的token："+ ReflectionToStringBuilder.toString(token, ToStringStyle.MULTI_LINE_STYLE));

@@ -72,20 +72,12 @@
             })*/
 
             instance.makeSource(code, sourceEndpoint);
-            instance.makeTarget(code, { //设置连接的目标，就是那一头
-                dropOptions: { hoverClass: "dragHover" },
-                anchor: "Continuous",
-                allowLoopback: true
-            });
+            instance.makeTarget(code, targetEndpoint);
 
             // listen for new connections; initialise them the same way we initialise the connections at startup.
             instance.bind("connection", function (connInfo, originalEvent) {
                 init(connInfo.connection);
             });
-
-            // THIS DEMO ONLY USES getSelector FOR CONVENIENCE. Use your library's appropriate selector
-            // method, or document.querySelectorAll:
-            //jsPlumb.draggable(document.querySelectorAll(".window"), { grid: [20, 20] });
 
             // connect a few up
             // instance.connect({uuids: ["Window2BottomCenter", "Window3TopCenter"], editable: true});
@@ -186,10 +178,10 @@
             anchor:"AutoDefault",
             endpoint:"Dot",
             paintStyle: {
-                    stroke: "#7AB02C",
-                    fill: "transparent",
-                    radius: 3,
-                    strokeWidth: 1
+                stroke: "#7AB02C",
+                fill: "transparent",
+                radius: 7,
+                strokeWidth: 1
             },
             connector: ["Flowchart", {stub: [40, 60], gap: 10, cornerRadius: 5, alwaysRespectStubs: true}],
             connectorStyle: connectorPaintStyle,
@@ -219,20 +211,16 @@
                             console.info(params.edge);
                         }
                     }
-                }],[ "Arrow", { location: 1, width: 10, length: 10 }],
-                [ "Arrow", { location: 0.3, width: 10, length: 10 }]
+                }]
             ]
         },
         // the definition of target endpoints (will appear when the user drags a connection)
         targetEndpoint = {
             endpoint: "Dot",
-            paintStyle: {fill: "#7AB02C", radius: 3},
+            paintStyle: {fill: "#7AB02C", radius: 7},
             hoverPaintStyle: endpointHoverStyle,
             maxConnections: -1,
             dropOptions: {hoverClass: "hover", activeClass: "active"},
-            // dropOptions: { hoverClass: "dragHover" },
-            anchor: "Continuous",
-            allowLoopback: true,
             overlays: [
                 ["Label", {
                     location: [0.5, -0.5],

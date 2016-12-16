@@ -25,9 +25,9 @@
         <module name="zi-dal" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.7">
-      <module name="zi" target="1.5" />
-      <module name="zi-dal" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="zi" target="1.8" />
+      <module name="zi-dal" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
