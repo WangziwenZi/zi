@@ -24,7 +24,7 @@ public class MenuController extends ServiceImplFactory {
     @RequestMapping("saveOrUpdate")
     @ResponseBody
     public Result saveOrUpdate(@JsonAnnotation JsonObject menu) {
-        Preconditions.checkArgument(StringUtils.isNotBlank(menu.get("title").getAsString()), StateCodeConstant.STATE_404);
+          Preconditions.checkArgument(StringUtils.isNotBlank(menu.get("title").getAsString()), StateCodeConstant.STATE_404);
         Preconditions.checkArgument(StringUtils.isNotBlank(menu.get("url").getAsString()), StateCodeConstant.STATE_404);
 
         this.getMenuService().insert(menu);

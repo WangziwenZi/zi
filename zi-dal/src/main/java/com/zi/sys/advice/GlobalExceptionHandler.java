@@ -23,7 +23,7 @@ public class GlobalExceptionHandler extends BaseController {
         Result result = new Result();
         result.setCode(Integer.parseInt(ex.getMessage()));
         result.setSuccess(false);
-        this.write(response, result);
+        super.write(response, result);
     }
 
     @ExceptionHandler(value = UserNotLoginException.class)
