@@ -5,7 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.google.gson.JsonObject;
 import com.zi.dal.user.entity.User;
 import com.zi.dal.user.entity.UserExample;
-import com.zi.service.UserServlce;
+import com.zi.service.UserService;
 import com.zi.sys.factory.MapperFactory;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +15,7 @@ import java.util.List;
  * Created by Administrator on 2016/8/12.
  */
 @Service
-public class UserServiceImpl extends MapperFactory implements UserServlce {
+public class UserServiceImpl extends MapperFactory implements UserService {
 
     /**
      * 只取第一个值
@@ -23,7 +23,7 @@ public class UserServiceImpl extends MapperFactory implements UserServlce {
      * @param example
      * @return
      */
-    public User queryOne(UserExample example) {
+    public User findByUsername(UserExample example) {
         List<User> lists = this.getUserMapper().selectByExample(example);
         User result = null;
         if (lists != null && lists.size() > 0) {
@@ -42,9 +42,5 @@ public class UserServiceImpl extends MapperFactory implements UserServlce {
 
     public void insert(User user) {
         this.getUserMapper().insert(user);
-    }
-
-    public static void main(String[] args) {
-
     }
 }

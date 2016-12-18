@@ -1,6 +1,7 @@
 package com.zi.sys.factory;
 
 import com.zi.dal.menu.dao.MenuMapper;
+import com.zi.dal.piresource.dao.PiResourceMapper;
 import com.zi.dal.user.dao.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -14,6 +15,13 @@ public class MapperFactory {
 
     @Autowired
     private MenuMapper menuMapper;
+
+    @Autowired
+    private PiResourceMapper piResourceMapper;
+
+    public PiResourceMapper getPiResourceMapper() {
+        return piResourceMapper;
+    }
 
     public MenuMapper getMenuMapper() {
         return menuMapper;

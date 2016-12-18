@@ -1,8 +1,10 @@
 package com.zi.interceptor;
 
 import com.google.common.base.Preconditions;
+import com.zi.dal.user.entity.User;
 import com.zi.sys.constant.SysConstant;
 import com.zi.sys.exception.UserNotLoginException;
+import org.apache.shiro.SecurityUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -16,8 +18,8 @@ import javax.servlet.http.HttpSession;
 public class LoginInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         boolean flag = true;
-        HttpSession session = httpServletRequest.getSession();
-        if (session.getAttribute(SysConstant.THE_LANDING_USER) == null) {
+        User user = (User) SecurityUtils.getSubject().getSession().getAttribute(SysConstant.THE_LANDING_USER);
+        if (user == null) {
             flag = false;
             throw new UserNotLoginException();
         }

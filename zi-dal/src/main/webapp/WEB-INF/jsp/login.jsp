@@ -19,10 +19,10 @@
 <script type="text/javascript">
     $("#sigin").bind("click", function () {
         $.ajax({
-            url: "/zi/base/user/sigin.htm",
+            url: "/sigin.htm",
             type: "post",
             dataType: "json",
-            data: {'email': '111', 'password': '111'},
+            data: {'email': 'admin', 'password': '111'},
             success: function (data) {
                 if (data.success) {
                     alert("登录成功");

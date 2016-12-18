@@ -1,27 +1,31 @@
 package com.zi.controller;
 
 import com.google.common.base.Preconditions;
-import com.zi.dal.user.dao.UserMapper;
 import com.zi.dal.user.entity.User;
 import com.zi.dal.user.entity.UserExample;
-import com.zi.sys.factory.ServiceImplFactory;
 import com.zi.sys.constant.StateCodeConstant;
 import com.zi.sys.constant.SysConstant;
+import com.zi.sys.factory.ServiceImplFactory;
 import com.zi.sys.result.Result;
 import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang.builder.ReflectionToStringBuilder;
+import org.apache.commons.lang.builder.ToStringStyle;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.UnknownAccountException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 
 /**
  * Created by Administrator on 2016/8/16.
  */
 @Controller
-@RequestMapping("/zi/base/user/")
+@RequestMapping("/")
 public class UserController extends ServiceImplFactory {
 
     @RequestMapping("login")
@@ -41,15 +45,22 @@ public class UserController extends ServiceImplFactory {
     public Result sigin(User param, HttpServletRequest request) {
 //        账户密码空值判断
         Preconditions.checkArgument((StringUtils.isNotBlank(param.getEmail()) && StringUtils.isNotBlank(param.getPassword())), StateCodeConstant.STATE_404);
+        UsernamePasswordToken token = new UsernamePasswordToken(param.getEmail(), param.getPassword());
+        token.setRememberMe(true);
+        System.out.println("为了验证登录用户而封装的token："+ ReflectionToStringBuilder.toString(token, ToStringStyle.MULTI_LINE_STYLE));
+        Subject subject = SecurityUtils.getSubject();
+        try {
+            System.out.println("对用户[" + param.getEmail() + "]进行登录验证..验证开始");
+            subject.login(token);
+            System.out.println("对用户[" + param.getEmail() + "]进行登录验证..验证通过");
+        }catch (UnknownAccountException e){
+            System.out.println("权限验证失败");
+        }
         UserExample example = new UserExample();
-        UserExample.Criteria criteria = example.createCriteria();
-        criteria.andEmailEqualTo(param.getEmail());
-        criteria.andPasswordEqualTo(param.getPassword());
-        User user = this.getUserServlce().queryOne(example);
-        Preconditions.checkArgument(user != null, StateCodeConstant.STATE_404);
-        HttpSession session = request.getSession();
-        session.setAttribute(SysConstant.THE_LANDING_USER, user);
-        return new Result();
+        example.createCriteria().andEmailEqualTo(param.getEmail());
+        User user = this.getUserService().findByUsername(example);
+        subject.getSession().setAttribute(SysConstant.THE_LANDING_USER, user);
+        return new Result(true,"登录成功");
     }
 
     /**
@@ -70,8 +81,7 @@ public class UserController extends ServiceImplFactory {
         Preconditions.checkArgument(StringUtils.isNotBlank(user.getPhone()), StateCodeConstant.STATE_404);
         UserExample example = new UserExample();
         example.createCriteria().andEmailEqualTo(user.getEmail());
-        Preconditions.checkArgument(this.getUserServlce().queryOne(example) == null, StateCodeConstant.STATE_412);
-        this.getUserServlce().insert(user);
+        this.getUserService().insert(user);
         Result result = new Result();
         result.setMessage("注册成功");
         return result;

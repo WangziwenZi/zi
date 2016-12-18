@@ -1,7 +1,8 @@
 package com.zi.sys.factory;
 
 import com.zi.service.MenuService;
-import com.zi.service.UserServlce;
+import com.zi.service.PiResourceService;
+import com.zi.service.UserService;
 import com.zi.sys.common.BaseController;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -11,16 +12,23 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class ServiceImplFactory extends BaseController {
 
     @Autowired
-    private UserServlce userServlce;
+    private UserService userService;
 
     @Autowired
     private MenuService menuService;
+
+    @Autowired
+    private PiResourceService piResourceService;
+
+    public PiResourceService getPiResourceService() {
+        return piResourceService;
+    }
 
     public MenuService getMenuService() {
         return menuService;
     }
 
-    public UserServlce getUserServlce() {
-        return userServlce;
+    public UserService getUserService() {
+        return userService;
     }
 }

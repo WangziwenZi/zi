@@ -42,7 +42,7 @@ public class GlobalExceptionHandler extends BaseController {
                 r.setMessage("用户未登录");
                 this.write(response, r);
             } else {
-                response.sendRedirect("/zi/base/user/login.htm");
+                response.sendRedirect("/login.htm");
             }
         } catch (Exception e) {
 

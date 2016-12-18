@@ -17,6 +17,19 @@ public class Result {
     private String message;
     private int code = StateCodeConstant.STATE_200;
 
+    public Result(){}
+
+    public Result(boolean success,Object data,String msg){
+        this.success = success;
+        this.data = data;
+        this.message = msg;
+    }
+
+    public Result(boolean success,String msg){
+        this.success = success;
+        this.message = msg;
+    }
+
     public String getMessage() {
         return message;
     }
