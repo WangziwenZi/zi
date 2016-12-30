@@ -1,4 +1,4 @@
-package com.zi.realm;
+package com.zi.shiro;
 
 import com.zi.dal.user.entity.User;
 import com.zi.dal.user.entity.UserExample;
@@ -10,7 +10,6 @@ import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
-import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

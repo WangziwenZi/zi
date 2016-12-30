@@ -33,7 +33,7 @@
 
         $("#login").bind("click",function () {
             $.ajax({
-                url:"/zi/base/user/login.htm",
+                url:"/register.htm",
                 type:"post",
                 dataType:"json",
                 data:{name:'111',email:'111',password:'111',phone:'111'},

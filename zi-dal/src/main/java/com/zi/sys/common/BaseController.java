@@ -13,15 +13,19 @@ import java.io.PrintWriter;
 public class BaseController {
 
     public void write(HttpServletResponse response, Object param) {
+        response.setCharacterEncoding("UTF-8");
+        response.setContentType("application/json;charset=utf-8");
         PrintWriter pw = null;
         try {
             pw = response.getWriter();
+            Gson gson = new Gson();
+            String result = gson.toJson(param);
+            pw.write(result);
+            pw.close();
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            if (pw != null) pw.close();
         }
-        Gson gson = new Gson();
-        String result = gson.toJson(param);
-        pw.write(result);
-        pw.close();
     }
 }

@@ -1,7 +1,5 @@
 package com.zi.controller;
 
-import com.mysql.jdbc.Security;
-import com.zi.dal.piresource.entity.PiResource;
 import com.zi.sys.factory.ServiceImplFactory;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
@@ -17,11 +15,6 @@ public class IndexController extends ServiceImplFactory {
 
     @RequestMapping("index")
     public String index() {
-        Subject subject = SecurityUtils.getSubject();
-        PiResource pi = new PiResource();
-        pi.setValue("/zi/base/index/**");
-        pi.setPermission("admin");
-//        this.getPiResourceService().saveResource(pi);
         return "index";
     }
 }
