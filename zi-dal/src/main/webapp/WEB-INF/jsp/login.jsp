@@ -9,76 +9,84 @@
 <html>
 <head>
     <title></title>
+    <link href="/js/bootstrap-3.3.0/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/login.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="/js/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    <script type="text/javascript" src="/js/bootstrap-3.3.0/js/bootstrap.js"></script>
 </head>
 <body>
-<input type="button" value="登录" id="sigin"/>
-<input type="button" value="注册" id="login"/>
-<input type="button" value="添加菜单" id="menu_save"/>
-<input type="button" value="查看菜单" id="menu_list"/>
+<div class="panel login">
+    <div class="panel-heading title">帐密登录</div>
+    <div class="panel-body">
+        <form id = "login-form">
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                    <input class="form-control text" type="text" placeholder="账户名" name = "email">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                    <input class="form-control text" type="text" placeholder="密码" name = "password">
+                </div>
+            </div>
+            <div>
+                <span class="glyphicon glyphicon-question-sign"></span>
+                <a href="javascript:void(0)">忘记登录密码？</a>
+            </div>
+            <a type="button" class="btn btn-primary btn-lg btn-block login-btn" id = "login">登 录</a>
+        </form>
+    </div>
+</div>
+<div class="authcenter-background" id="J-authcenter-bg">
+    <img id="J-authcenter-bgImg" class="authcenter-bg authcenter-bg-show" smartracker="on"
+         src="/images/login.jpg" style="width: 1903px; height: 1189px;">
+</div>
 <script type="text/javascript">
-    $("#sigin").bind("click", function () {
-        $.ajax({
-            url: "/sigin.htm",
-            type: "post",
-            dataType: "json",
-            data: {'email': 'admin', 'password': '111'},
-            success: function (data) {
-                if (data.success) {
-                    alert("登录成功");
-                    window.location.href = "/zi/base/index/index.htm"
-                } else {
-                    alert("登录失败");
-                }
-            }
-        })
-    })
+    try {
+        (function () {
+            /**
+             * 填充整个页面
+             */
+            function backgroundInit() {
+                var bg = $("#J-authcenter-bg");
+                bg.height(tools.findByHeight());
+                bg.width(tools.findByWidth());
+                bg.find("img").height(tools.findByHeight());
+                bg.find("img").width(tools.findByWidth());
+            };
+            $(window).bind("resize",function () {
+                backgroundInit();
+            })
 
-    $("#login").bind("click", function () {
-        $.ajax({
-            url: "/register.htm",
-            type: "post",
-            dataType: "json",
-            data: {name: '111', email: '111', password: '111', phone: '111'},
-            success: function (data) {
-                if (data.success) {
-                    alert("注册成功");
-                } else {
-                    alert("注册失败");
-                }
+            function login(){
+                $("#login").bind("click",function(){
+                    $.ajax({
+                        url:"/sigin.htm",
+                        type:"post",
+                        dataType:"json",
+                        success:function (data) {
+                            
+                        }
+                    })
+                })
             }
-        })
-    })
-    $("#menu_save").bind("click", function () {
-        $.ajax({
-            url: "/zi/base/menu/saveOrUpdate.htm",
-            type: "post",
-            dataType: "json",
-            data: {title: '111', url: '111', save: 'Y'},
-            success: function (data) {
-                if (data.success) {
-                    alert("保存成功");
-                } else {
-                    alert("保存失败");
-                }
+            /**
+             * 启动器
+             */
+            function main() {
+                backgroundInit();
             }
-        })
-    })
-    $("#menu_list").bind("click", function () {
-        $.ajax({
-            url: "/list.htm",
-            type: "post",
-            dataType: "json",
-            success: function (data) {
-                if (data.success) {
-                    console.log(data);
-                    alert("查询菜单成功");
-                } else {
-                    alert("查询菜单失败");
-                }
-            }
-        })
-    })
+
+            main();
+        })();
+    } catch (e) {
+        window.console && console.log && console.log(e);
+        window.Tracker && Tracker.click('onlineServer-error-init-' + e);
+    }
 </script>
 </body>
 </html>

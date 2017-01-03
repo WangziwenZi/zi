@@ -16,7 +16,10 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Created by Administrator on 2016/12/30 0030.
+ * 汪梓文 版权所有 © Copyright 2017<br/>
+ * 说明: 自定义的URL认证 <br/>
+ * 创建日期: 2016年7月13日 上午10:01:04 <br/>
+ * 作者: wzw
  */
 public class UrlPermissionsFilter extends PermissionsAuthorizationFilter {
 

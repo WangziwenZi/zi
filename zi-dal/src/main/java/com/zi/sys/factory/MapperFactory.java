@@ -1,26 +1,25 @@
 package com.zi.sys.factory;
 
-import com.zi.dal.menu.dao.MenuMapper;
-import com.zi.dal.user.dao.UserMapper;
+import com.zi.dal.sysMenu.dao.SysMenuMapper;
+import com.zi.dal.sysUser.dao.SysUserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * Created by Administrator on 2016/8/21.
+ * Mapper的工厂类 2016/8/21.
  */
 public class MapperFactory {
 
     @Autowired
-    private UserMapper userMapper;
+    private SysMenuMapper sysMenuMapper;
 
     @Autowired
-    private MenuMapper menuMapper;
+    private SysUserMapper sysUserMapper;
 
-
-    public MenuMapper getMenuMapper() {
-        return menuMapper;
+    public SysMenuMapper getSysMenuMapper() {
+        return sysMenuMapper;
     }
 
-    public UserMapper getUserMapper() {
-        return userMapper;
+    public SysUserMapper getSysUserMapper() {
+        return sysUserMapper;
     }
 }

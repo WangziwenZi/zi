@@ -1,83 +1,38 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    background: url(/images/bg_blue.png);
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
-    -o-background-size: cover; /* 兼容Opera */
-    font: 12px/1.5 "Microsoft YaHei", tahoma, arial, Hiragino Sans GB,
-    \5b8b\4f53;
+    background: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
-
-nav, ul, li {
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
 }
-
-#head {
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,arial,"Hiragino Sans GB",\5b8b\4f53;
+}
+.authcenter-background {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+.authcenter-bg {
+    position: absolute;
     width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity .8s ease;
+    -moz-transition: opacity .8s ease;
+    transition: opacity .8s ease;
 }
-
-#head div {
-    background: #FFF;
+.authcenter-bg-show {
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
-
-#head div > a {
-    text-decoration: none;
-    padding: 10px;
-    margin-right: 4.4em;
-}
-
-#head div > a img {
-    width: 220px;
-    height: 80px;
-    border: 0px;
-}
-
-#head div.user {
-    width: 200px;
-    margin: 10px;
-}
-
-#left {
-    width: 220px;
-    /*border: 1px solid rebeccapurple;*/
-}
-
-.big_title {
-    margin-top: 2.2em;
-    display: inline;
-}
-
-.big_menu {
-
-}
-
-.big_menu li {
-    margin: 0px 10px;
-    float: left;
-}
-
-.big_menu a {
-    margin-top: 2.7em;
-    display: inline;
-    font-family: "Ek Mukta", sans-serif;
-    font-weight: 600;
-    font-size: 1.14em;
-    padding: 0 0.90625em 0.125em;
-    color: #647980;
-    transition: 0.2s color ease-out, 0.2s background-color ease-out;
-    background: no-repeat right 57px;
-}
-
-.big_menu li > a {
-    display: block;
-
-    text-decoration: none;
-    background-image: url(/images/arrow-menu.svg);
-    background-repeat: no-repeat;
-    background-position: right 8px;
-}
-

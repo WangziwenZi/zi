@@ -1,15 +1,13 @@
 package com.zi.controller;
 
 import com.google.common.base.Preconditions;
-import com.zi.dal.user.entity.User;
-import com.zi.dal.user.entity.UserExample;
+import com.zi.dal.sysUser.entity.SysUser;
+import com.zi.dal.sysUser.entity.SysUserExample;
 import com.zi.sys.constant.StateCodeConstant;
 import com.zi.sys.constant.SysConstant;
 import com.zi.sys.factory.ServiceImplFactory;
 import com.zi.sys.result.Result;
 import org.apache.commons.lang.StringUtils;
-import org.apache.commons.lang.builder.ReflectionToStringBuilder;
-import org.apache.commons.lang.builder.ToStringStyle;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -31,11 +29,6 @@ import javax.servlet.http.HttpServletRequest;
 public class UserController extends ServiceImplFactory {
     private Logger logger = LoggerFactory.getLogger(UserController.class);
 
-    @RequestMapping("login")
-    public String login() {
-        return "login";
-    }
-
     /**
      * @api {post} /zi/base/user/sigin.htm 登录接口
      * @apiName sigin
@@ -45,7 +38,7 @@ public class UserController extends ServiceImplFactory {
      */
     @RequestMapping(value = "sigin", method = RequestMethod.POST)
     @ResponseBody
-    public Result sigin(User param, HttpServletRequest request) {
+    public Result sigin(SysUser param, HttpServletRequest request) {
 //        账户密码空值判断
         Preconditions.checkArgument((StringUtils.isNotBlank(param.getEmail()) && StringUtils.isNotBlank(param.getPassword())), StateCodeConstant.STATE_404);
         UsernamePasswordToken token = new UsernamePasswordToken(param.getEmail(), param.getPassword());
@@ -58,9 +51,9 @@ public class UserController extends ServiceImplFactory {
         } catch (UnknownAccountException e) {
             logger.info("权限验证失败");
         }
-        UserExample example = new UserExample();
+        SysUserExample example = new SysUserExample();
         example.createCriteria().andEmailEqualTo(param.getEmail());
-        User user = this.getUserService().findByUsername(example);
+        SysUser user = this.getUserService().findByUsername(example);
         subject.getSession().setAttribute(SysConstant.THE_LANDING_USER, user);
         return new Result(true, "登录成功");
     }
@@ -76,12 +69,12 @@ public class UserController extends ServiceImplFactory {
      */
     @RequestMapping(value = "register", method = RequestMethod.POST)
     @ResponseBody
-    public Result register(User user) {
+    public Result register(SysUser user) {
         Preconditions.checkArgument(StringUtils.isNotBlank(user.getEmail()), StateCodeConstant.STATE_404);
         Preconditions.checkArgument(StringUtils.isNotBlank(user.getPassword()), StateCodeConstant.STATE_404);
         Preconditions.checkArgument(StringUtils.isNotBlank(user.getName()), StateCodeConstant.STATE_404);
         Preconditions.checkArgument(StringUtils.isNotBlank(user.getPhone()), StateCodeConstant.STATE_404);
-        UserExample example = new UserExample();
+        SysUserExample example = new SysUserExample();
         example.createCriteria().andEmailEqualTo(user.getEmail());
         this.getUserService().insert(user);
         Result result = new Result();

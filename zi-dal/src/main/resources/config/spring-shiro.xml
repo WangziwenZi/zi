@@ -117,16 +117,15 @@
         <constructor-arg>
             <value>
                 <!--公共资源-->
-                /css/* = anon
-                /images/* = anon
-                /js/* = anon
+                /css/** = anon
+                /images/** = anon
+                /js/** = anon
                 <!--登录、注册接口-->
                 /login.htm = anon
                 /sigin.htm = anon
                 /register.htm = anon
                 <!-- 未授权yemian -->
                 /unauthor.htm = anon
-                /favicon.ico = anon
                 /** = sessionFilter,authc
                 /userLogout.htm = logout,kickout
             </value>

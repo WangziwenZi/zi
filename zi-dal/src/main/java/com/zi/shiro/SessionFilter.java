@@ -1,6 +1,5 @@
 package com.zi.shiro;
 
-import com.zi.dal.user.entity.User;
 import com.zi.sys.common.BaseController;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
@@ -12,7 +11,6 @@ import java.io.IOException;
 
 /**
  * 说明：session超时过滤
- * 项目名称：zi
  * 创建时间：二〇一六年十二月三十日 15:05:18
  * 作者：汪梓文
  */

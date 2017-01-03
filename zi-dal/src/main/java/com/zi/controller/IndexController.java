@@ -10,9 +10,34 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by Administrator on 2016/8/27.
  */
 @Controller
-@RequestMapping("/zi/base/index")
+@RequestMapping("/")
 public class IndexController extends ServiceImplFactory {
 
+    /**
+     * 登录跳转
+     *
+     * @return
+     */
+    @RequestMapping("login")
+    public String login() {
+        return "login";
+    }
+
+    /**
+     * 未授权页面跳转
+     *
+     * @return
+     */
+    @RequestMapping("unauthor")
+    public String unauthor() {
+        return "unauthor";
+    }
+
+    /**
+     * 主页面跳转
+     *
+     * @return
+     */
     @RequestMapping("index")
     public String index() {
         return "index";

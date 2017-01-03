@@ -1,7 +1,7 @@
 package com.zi.shiro;
 
-import com.zi.dal.user.entity.User;
-import com.zi.dal.user.entity.UserExample;
+import com.zi.dal.sysUser.entity.SysUser;
+import com.zi.dal.sysUser.entity.SysUserExample;
 import com.zi.service.UserService;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
@@ -14,7 +14,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by Administrator on 2016/11/16.
+ * 汪梓文 版权所有 © Copyright 2017<br/>
+ * 说明:鉴权使用 <br/>
+ * 创建日期: 2016年7月13日 上午9:37:09 <br/>
+ * 作者: wzw
  */
 @Service
 public class MyRealm extends AuthorizingRealm{
@@ -41,9 +44,9 @@ public class MyRealm extends AuthorizingRealm{
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         System.out.println("进入doGetAuthenticationInfo方法.");
         UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
-        UserExample example = new UserExample();
+        SysUserExample example = new SysUserExample();
         example.createCriteria().andEmailEqualTo(token.getUsername());
-        User user = userService.findByUsername(example);
+        SysUser user = userService.findByUsername(example);
         System.out.println("验证当前登录用户："+ ReflectionToStringBuilder.toString(token, ToStringStyle.MULTI_LINE_STYLE));
         SimpleAuthenticationInfo authentication = new SimpleAuthenticationInfo(user.getEmail(),user.getPassword().toCharArray(),getName());
         return authentication;

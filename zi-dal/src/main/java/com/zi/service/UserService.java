@@ -1,18 +1,15 @@
 package com.zi.service;
 
-import com.github.pagehelper.Page;
 import com.github.pagehelper.PageInfo;
 import com.google.gson.JsonObject;
-import com.zi.dal.user.entity.User;
-import com.zi.dal.user.entity.UserExample;
-
-import java.util.List;
+import com.zi.dal.sysUser.entity.SysUser;
+import com.zi.dal.sysUser.entity.SysUserExample;
 
 /**
  * Created by Administrator on 2016/8/12.
  */
 public interface UserService {
-    public PageInfo<User> queryPage(JsonObject param);
+    public PageInfo<SysUser> queryPage(JsonObject param);
 
     /**
      * 只取第一个值
@@ -20,7 +17,7 @@ public interface UserService {
      * @param example
      * @return
      */
-    public User findByUsername(UserExample example);
+    public SysUser findByUsername(SysUserExample example);
 
-    public void insert(User user);
+    public void insert(SysUser user);
 }
