@@ -1,0 +1,50 @@
+.panel .menu {
+    position: absolute;
+    background: #181d20;
+    color: #cccccc;
+    width: 240px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.panel .menu .logo {
+    text-align: center;
+    padding: 2em;
+    margin-top: 1em;
+}
+
+.panel .menu .logo i:nth-child(2) {
+    color: #57889c;
+}
+
+.panel .menu .logo img {
+    width: 50px;
+}
+
+.panel .menu .nav li {
+    margin: 0.7em 0em;
+    display: block;
+}
+
+.panel .menu .nav li a {
+    font-size: 13px;
+    color: #a6a6a6;
+}
+
+.panel .menu .nav li i {
+    margin: 0em 1em;
+}
+
+.panel .menu .nav li a:hover{
+    background: #181d20;
+    color: #fff;
+}
+
+.menu .nav .child {
+    margin-left: 1.7em;
+}
+
+.downIco {
+    padding-top: 0.3em;
+}

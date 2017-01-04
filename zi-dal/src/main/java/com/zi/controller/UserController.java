@@ -27,7 +27,7 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 @RequestMapping("/")
 public class UserController extends ServiceImplFactory {
-    private Logger logger = LoggerFactory.getLogger(UserController.class);
+    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
     /**
      * @api {post} /zi/base/user/sigin.htm 登录接口
@@ -40,7 +40,7 @@ public class UserController extends ServiceImplFactory {
     @ResponseBody
     public Result sigin(SysUser param, HttpServletRequest request) {
 //        账户密码空值判断
-        Preconditions.checkArgument((StringUtils.isNotBlank(param.getEmail()) && StringUtils.isNotBlank(param.getPassword())), StateCodeConstant.STATE_404);
+        Preconditions.checkArgument((StringUtils.isNotBlank(param.getEmail()) && StringUtils.isNotBlank(param.getPassword())), StateCodeConstant.STATE_404.toString());
         UsernamePasswordToken token = new UsernamePasswordToken(param.getEmail(), param.getPassword());
         token.setRememberMe(true);
         Subject subject = SecurityUtils.getSubject();
@@ -70,10 +70,10 @@ public class UserController extends ServiceImplFactory {
     @RequestMapping(value = "register", method = RequestMethod.POST)
     @ResponseBody
     public Result register(SysUser user) {
-        Preconditions.checkArgument(StringUtils.isNotBlank(user.getEmail()), StateCodeConstant.STATE_404);
-        Preconditions.checkArgument(StringUtils.isNotBlank(user.getPassword()), StateCodeConstant.STATE_404);
-        Preconditions.checkArgument(StringUtils.isNotBlank(user.getName()), StateCodeConstant.STATE_404);
-        Preconditions.checkArgument(StringUtils.isNotBlank(user.getPhone()), StateCodeConstant.STATE_404);
+        Preconditions.checkArgument(StringUtils.isNotBlank(user.getEmail()), StateCodeConstant.STATE_404.toString());
+        Preconditions.checkArgument(StringUtils.isNotBlank(user.getPassword()), StateCodeConstant.STATE_404.toString());
+        Preconditions.checkArgument(StringUtils.isNotBlank(user.getName()), StateCodeConstant.STATE_404.toString());
+        Preconditions.checkArgument(StringUtils.isNotBlank(user.getPhone()), StateCodeConstant.STATE_404.toString());
         SysUserExample example = new SysUserExample();
         example.createCriteria().andEmailEqualTo(user.getEmail());
         this.getUserService().insert(user);

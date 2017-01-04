@@ -15,17 +15,18 @@ public class Result {
     private Object data;
     private String errMsg;
     private String message;
-    private int code = StateCodeConstant.STATE_200;
+    private int code = StateCodeConstant.STATE_200.getCode();
 
-    public Result(){}
+    public Result() {
+    }
 
-    public Result(boolean success,Object data,String msg){
+    public Result(boolean success, Object data, String msg) {
         this.success = success;
         this.data = data;
         this.message = msg;
     }
 
-    public Result(boolean success,String msg){
+    public Result(boolean success, String msg) {
         this.success = success;
         this.message = msg;
     }

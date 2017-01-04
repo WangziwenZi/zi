@@ -97,7 +97,7 @@
         <!-- 成功跳转 -->
         <property name="successUrl" value="/index.htm"/>
         <!-- 没有权限跳转 -->
-        <property name="unauthorizedUrl" value="/unauthorized.htm"/>
+        <property name="unauthorizedUrl" value="/login.htm"/>
         <property name="filters">
             <map>
                 <entry key="authc" value-ref="urlPermissionsFilter"/>
@@ -124,8 +124,6 @@
                 /login.htm = anon
                 /sigin.htm = anon
                 /register.htm = anon
-                <!-- 未授权yemian -->
-                /unauthor.htm = anon
                 /** = sessionFilter,authc
                 /userLogout.htm = logout,kickout
             </value>

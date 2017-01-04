@@ -36,3 +36,7 @@ body, button, input, select, textarea {
     opacity: 1;
     filter: alpha(opacity=100);
 }
+
+.floatRight{
+    float:right;
+}

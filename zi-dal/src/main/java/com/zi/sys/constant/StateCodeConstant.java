@@ -69,17 +69,30 @@ http状态返回代码 代码 说明
 404 – 请求的网页不存在
 503 – 服务不可用
 */
-public class StateCodeConstant {
-
+public enum StateCodeConstant {
     /*执行成功*/
-    public static int STATE_200 = 200;
-
+    STATE_200("执行成功", 200),
     /*结果为空*/
-    public static int STATE_404 = 404;
-
+    STATE_404("结果为空", 404),
     /*412 （未满足前提条件）*/
-    public static int STATE_412 = 412;
-
+    STATE_412("未满足前提条件", 412),
     /*401 登录未授权*/
-    public static int STATE_401= 401;
+    STATE_401("登录未授权", 401);
+
+    private String msg;
+    private int code;
+
+    private StateCodeConstant(String msg, int code) {
+        this.msg = msg;
+        this.code = code;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    @Override
+    public String toString() {
+        return this.code + "：" + this.msg;
+    }
 }

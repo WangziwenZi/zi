@@ -73,7 +73,7 @@
     </servlet-mapping>
 
     <welcome-file-list>
-        <welcome-file>/zi/base/index/index.htm</welcome-file>
+        <welcome-file>/index.htm</welcome-file>
     </welcome-file-list>
 
 </web-app>
