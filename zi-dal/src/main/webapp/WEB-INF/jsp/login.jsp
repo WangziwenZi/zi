@@ -49,7 +49,6 @@
 </div>
 <script type="text/javascript">
     try {
-        (function () {
             /**
              * 填充整个页面
              */
@@ -93,13 +92,10 @@
             /**
              * 启动器
              */
-            function main() {
+            (function main() {
                 backgroundInit();
                 login();
-            }
-
-            main();
-        })();
+            })();
     } catch (e) {
         window.console && console.log && console.log(e);
         window.Tracker && Tracker.click('onlineServer-error-init-' + e);
