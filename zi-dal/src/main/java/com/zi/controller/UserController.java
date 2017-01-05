@@ -54,7 +54,7 @@ public class UserController extends ServiceImplFactory {
         SysUserExample example = new SysUserExample();
         example.createCriteria().andEmailEqualTo(param.getEmail());
         SysUser user = this.getUserService().findByUsername(example);
-        subject.getSession().setAttribute(SysConstant.THE_LANDING_USER, user);
+//        subject.getSession().setAttribute(SysConstant.THE_LANDING_USER, user);
         return new Result(true, "登录成功");
     }
 

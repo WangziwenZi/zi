@@ -14,4 +14,13 @@ public interface SysAuthorityService {
      * @return
      */
     public List<SysAuthority> findByAll();
+
+    /**
+     * 根据用户id查询
+     *
+     * @param userId
+     * @param state
+     * @return
+     */
+    public List<SysAuthority> findByUserId(String userId, String state);
 }

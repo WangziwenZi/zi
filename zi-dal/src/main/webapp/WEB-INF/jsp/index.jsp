@@ -6,17 +6,18 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title></title>
-    <link href="/css/index.css" rel="stylesheet" type="text/css"/>
-    <link href="/css/_index.css" rel="stylesheet" type="text/css"/>
+    <title>财务管理主页</title>
     <link rel="shortcut icon" href="/images/ico/favicon.ico" type="image/x-ico">
     <link href="/js/bootstrap-3.3.0/css/bootstrap.css" rel="stylesheet" type="text/css"/>
     <link href="/css/font-awesome.css" rel="stylesheet" type="text/css"/>
     <!--[if IE 7]>
     <link rel="stylesheet" href="/css/font-awesome-ie7.css">
     <![endif]-->
+    <link href="/css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/_index.css" rel="stylesheet" type="text/css"/>
     <script type="text/javascript" src="/js/jquery-3.1.0.js"></script>
     <script type="text/javascript" src="/js/index.js"></script>
     <script type="text/javascript" src="/js/bootstrap-3.3.0/js/bootstrap.js"></script>
@@ -32,42 +33,41 @@
                 </span>
         </div>
         <div style="height: 404px;">
-            <ul class="nav_tree">
-                <li><a href="javascript:void(0)"><i class="icon-laptop icon-large"></i><span class="text"> 我的工作空间</span></a>
-                </li>
-                <li><a href="javascript:void(0)"><i class="icon-key icon-large"></i><span
-                        class="text"> 员工权限管理</span></a></li>
-                <li><a href="javascript:void(0)"><i class="icon-cog icon-large"></i><span class="text"> 系统设置</span></a>
-                </li>
-                <li data-code="node">
-                    <a href="javascript:void(0)"><i class="icon-cog icon-large"></i><span class="text"> 空间</span><i
-                            class="icon-caret-down floatRight downIco"></i></a>
-                    <ul class="nav_tree child" style = "display: none;">
-                        <li><a href="index.html"><i class="icon-laptop icon-large"></i><span class="text"> 我的工作空间</span></a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="node panel-default">
+                <div style="border-bottom:1px solid transparent">
+                    <a data-toggle="collapse" href="#collapseOne"><i class="icon-laptop"></i><span>我的工作空间</span></a>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse child" role="tabpanel"
+                     aria-labelledby="headingOne">
+                    <a data-toggle="collapse"><i class="icon-laptop"></i><span>我的工作空间</span></a>
+                    <a data-toggle="collapse"><i class="icon-laptop"></i><span>我的工作空间</span></a>
+                    <a data-toggle="collapse"><i class="icon-laptop"></i><span>我的工作空间</span></a>
+                    <a data-toggle="collapse"><i class="icon-laptop"></i><span>我的工作空间</span></a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 <script type="text/javascript">
     try {
         (function () {
-            methods = {
-                active: function () {
-                    $(".nav_tree > li").bind("click", function () {
-                        if ($(this).data("code") != "node") {
-                            $(".nav_tree li").removeClass("active");
-                            $(this).addClass("active");
-                        }else{
-                            $(this).find(".child").show();
-                        }
-                    })
+//            下拉菜单效果
+            $(".node a").bind("click", function () {
+                if (!$(this).prop("href")) {
+                    $(".node a").removeClass("active");
+                    $(this).addClass("active");
                 }
-            }
+            })
 
-            methods.active();
+            $.ajax({
+                url: "/menu/findByPage.htm",
+                type: "post",
+                dataType: "json",
+                data: {pageNum: 1, pageSize: 3},
+                success: function (data) {
+                    console.info(data);
+                }
+            })
         })();
     } catch (e) {
         window.console && console.log && console.log(e);

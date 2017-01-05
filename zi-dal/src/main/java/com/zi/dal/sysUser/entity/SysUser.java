@@ -144,7 +144,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.id
      *
      * @return the value of sys_user.id
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public String getId() {
@@ -156,7 +155,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.id
      *
      * @param id the value for sys_user.id
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setId(String id) {
@@ -168,7 +166,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.to_id
      *
      * @return the value of sys_user.to_id
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public String getToId() {
@@ -180,7 +177,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.to_id
      *
      * @param toId the value for sys_user.to_id
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setToId(String toId) {
@@ -192,7 +188,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.login_name
      *
      * @return the value of sys_user.login_name
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public String getLoginName() {
@@ -204,7 +199,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.login_name
      *
      * @param loginName the value for sys_user.login_name
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setLoginName(String loginName) {
@@ -216,7 +210,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.password
      *
      * @return the value of sys_user.password
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public String getPassword() {
@@ -228,7 +221,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.password
      *
      * @param password the value for sys_user.password
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setPassword(String password) {
@@ -240,7 +232,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.name
      *
      * @return the value of sys_user.name
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public String getName() {
@@ -252,7 +243,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.name
      *
      * @param name the value for sys_user.name
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setName(String name) {
@@ -264,7 +254,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.phone
      *
      * @return the value of sys_user.phone
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public String getPhone() {
@@ -276,7 +265,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.phone
      *
      * @param phone the value for sys_user.phone
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setPhone(String phone) {
@@ -288,7 +276,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.email
      *
      * @return the value of sys_user.email
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public String getEmail() {
@@ -300,7 +287,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.email
      *
      * @param email the value for sys_user.email
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setEmail(String email) {
@@ -312,7 +298,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.login_time
      *
      * @return the value of sys_user.login_time
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public Date getLoginTime() {
@@ -324,7 +309,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.login_time
      *
      * @param loginTime the value for sys_user.login_time
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setLoginTime(Date loginTime) {
@@ -336,7 +320,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.last_login_time
      *
      * @return the value of sys_user.last_login_time
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public Date getLastLoginTime() {
@@ -348,7 +331,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.last_login_time
      *
      * @param lastLoginTime the value for sys_user.last_login_time
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setLastLoginTime(Date lastLoginTime) {
@@ -360,7 +342,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.count
      *
      * @return the value of sys_user.count
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public Integer getCount() {
@@ -372,7 +353,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.count
      *
      * @param count the value for sys_user.count
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setCount(Integer count) {
@@ -384,7 +364,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.create_time
      *
      * @return the value of sys_user.create_time
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public Date getCreateTime() {
@@ -396,7 +375,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.create_time
      *
      * @param createTime the value for sys_user.create_time
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setCreateTime(Date createTime) {
@@ -408,7 +386,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.modify_time
      *
      * @return the value of sys_user.modify_time
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public Date getModifyTime() {
@@ -420,7 +397,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.modify_time
      *
      * @param modifyTime the value for sys_user.modify_time
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setModifyTime(Date modifyTime) {
@@ -432,7 +408,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.is_deleted
      *
      * @return the value of sys_user.is_deleted
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public String getIsDeleted() {
@@ -444,7 +419,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.is_deleted
      *
      * @param isDeleted the value for sys_user.is_deleted
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setIsDeleted(String isDeleted) {
@@ -456,7 +430,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.sort
      *
      * @return the value of sys_user.sort
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public Integer getSort() {
@@ -468,7 +441,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.sort
      *
      * @param sort the value for sys_user.sort
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setSort(Integer sort) {
@@ -480,7 +452,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.sex
      *
      * @return the value of sys_user.sex
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public String getSex() {
@@ -492,7 +463,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.sex
      *
      * @param sex the value for sys_user.sex
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setSex(String sex) {
@@ -504,7 +474,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.address
      *
      * @return the value of sys_user.address
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public String getAddress() {
@@ -516,7 +485,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.address
      *
      * @param address the value for sys_user.address
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setAddress(String address) {
@@ -528,7 +496,6 @@ public class SysUser {
      * This method returns the value of the database column sys_user.description
      *
      * @return the value of sys_user.description
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public String getDescription() {
@@ -540,7 +507,6 @@ public class SysUser {
      * This method sets the value of the database column sys_user.description
      *
      * @param description the value for sys_user.description
-     *
      * @mbggenerated Tue Jan 03 16:10:51 CST 2017
      */
     public void setDescription(String description) {

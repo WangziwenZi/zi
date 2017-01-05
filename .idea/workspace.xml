@@ -1,14 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" line="59" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java" line="15" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63092db8-e5c9-40d3-b981-a49f5b1322ab" name="Default" comment="登录页面">
+    <list default="true" id="63092db8-e5c9-40d3-b981-a49f5b1322ab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/dao/SysRoleMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/dao/SysRoleMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/entity/SysRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/entity/SysRoleExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/dao/SysRoleAuthorityMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/dao/SysRoleAuthorityMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/entity/SysRoleAuthority.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/entity/SysRoleAuthorityExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleuser/dao/SysRoleUserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleuser/dao/SysRoleUserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleuser/entity/SysRoleUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleuser/entity/SysRoleUserExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/MenuService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleAuthorityService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/MenuServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleAuthorityServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleUserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/resources/config/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/IndexController.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/IndexController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/entity/SysMenu.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/entity/SysMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/entity/SysMenuExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/entity/SysMenuExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/dao/SysUserMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/dao/SysUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUser.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/entity/SysAuthority.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/entity/SysAuthority.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/entity/SysAuthorityExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/entity/SysAuthorityExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/LoginInterceptor.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/LoginInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysAuthorityService.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysAuthorityService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysAuthorityServiceImpl.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysAuthorityServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/UrlPermissionsFilter.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/UrlPermissionsFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/StateCodeConstant.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/StateCodeConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-dao.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/zi-dal/src/main/resources/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/webapp/css/_index.css" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/css/_index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/zi-dal.iml" afterPath="$PROJECT_DIR$/zi-dal/zi-dal.iml" />
     </list>
     <ignored path="zi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,44 +87,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/_index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="506">
+              <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -87,8 +100,8 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="56" column="78" lean-forward="true" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
+            <state relative-caret-position="390">
+              <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,21 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Preconditions.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Preconditions.class">
+      <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/advice/GlobalExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-214">
-              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="373">
+              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -121,28 +124,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setfilters</find>
-      <find>securityManager</find>
-      <find>quartz</find>
-      <find>sessionManager</find>
-      <find>sessionDAO</find>
-      <find>sessionIdGenerator</find>
-      <find>EnterpriseCacheSessionDAO</find>
-      <find>onAccessDenied</find>
-      <find>isAccessAllowed</find>
-      <find>insert</find>
-      <find />
-      <find>cacheManager</find>
-      <find>loginCheck</find>
-      <find>System.out.println</find>
       <find>shiroFilter</find>
       <find>shiro-quartz</find>
       <find>commons</find>
@@ -159,6 +148,20 @@
       <find>Dashboard</find>
       <find>http</find>
       <find>href=&quot;index.html&quot;</find>
+      <find>node</find>
+      <find>child</find>
+      <find>&lt;selectKey keyProperty=&quot;id&quot; resultType=&quot;String&quot; order=&quot;BEFORE&quot;&gt;    select replace(uuid(),'-','') from dual  &lt;/selectKey&gt;</find>
+      <find>Base_Column_List</find>
+      <find>select</find>
+      <find>orde</find>
+      <find>oredC</find>
+      <find>oredCriteria</find>
+      <find>ResultMapWithBLOBs</find>
+      <find>distinct</find>
+      <find>selectByExample</find>
+      <find>log4j.logger.org.apache.ibatis</find>
+      <find>402</find>
+      <find>insert</find>
     </findStrings>
     <replaceStrings>
       <replace>logger.info</replace>
@@ -176,57 +179,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/InsertPlugin.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/common/BaseCommon.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/MenuService.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/MenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/group/right/dao/GroupRightRelationMapper.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/relation/role/right/dao/RoleRightRelationMapper.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/dao/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/user/entity/User.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/entity/Menu.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/menu/dao/MenuMapper.xml" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sys/authority/dao/SysAuthorityMapper.xml" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysAuthorityService.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysAuthorityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/common/BaseController.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/KickoutSessionControlFilter.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/UserService.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/SessionFilter.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/css/login.css" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/js/index.js" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/exception/UserNotLoginException.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/exception/InvalidPassWordException.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/UrlPermissionsFilter.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/advice/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/result/Result.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/StateCodeConstant.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/jdbc/util/JDBCUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/proton/index.html" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-shiro.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/proton/html5shiv.js" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/proton/respond.min.js" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/proton/index.html" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/proton/index.jsp" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/css/index.css" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/css/_index.css" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/css/_index.css" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/dao/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/MenuService.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysAuthority/dao/SysAuthorityMapper.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUserExample.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/config/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/StateCodeConstant.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/dao/SysRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/dao/SysRoleAuthorityMapper.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleuser/dao/SysRoleUserMapper.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleUserService.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleAuthorityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleAuthorityService.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleService.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/UrlPermissionsFilter.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysAuthorityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysAuthorityService.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/login.jsp" />
       </list>
     </option>
   </component>
@@ -384,6 +387,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generated-sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis-generator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generated-sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -457,66 +526,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -609,86 +618,6 @@
               <option name="myItemId" value="sys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="result" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -758,78 +687,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="advice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="shiro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -861,6 +718,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -895,6 +794,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resolvers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -962,6 +891,120 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sysroleauthority" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sysroleauthority" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi-dal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -984,23 +1027,23 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IDEA\wangziwenUniqueGit\zi\zi-dal\src\main\webapp\WEB-INF\jsp" />
-      <recent name="F:\wangziwen\zi\zi-dal\src\main\resources\config" />
-      <recent name="F:\wangziwen\zi\zi-dal\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zi" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zi.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\wangziwenUniqueGit\zi\zi-dal\src\main\java\com\zi\dal" />
       <recent name="E:\IDEA\wangziwenUniqueGit\zi\zi-dal\src\main\webapp\css" />
       <recent name="E:\IDEA\wangziwenUniqueGit\zi\zi-dal\src\main\webapp" />
       <recent name="E:\IDEA\wangziwenUniqueGit\zi\zi-dal\src\main\webapp\images" />
       <recent name="E:\IDEA\wangziwenUniqueGit\zi\zi-dal\src\main\webapp\plugins" />
-      <recent name="E:\IDEA\wangziwenUniqueGit\zi\zi-dal\src\main\webapp\images\ico" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zi.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA\wangziwenUniqueGit\zi\zi-dal\src\main\webapp\WEB-INF\jsp" />
+      <recent name="F:\wangziwen\zi\zi-dal\src\main\resources\config" />
+      <recent name="F:\wangziwen\zi\zi-dal\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.zi-dal">
@@ -1589,7 +1632,7 @@
       <workItem from="1482982474430" duration="14950000" />
       <workItem from="1483064589552" duration="20373000" />
       <workItem from="1483429586374" duration="31499000" />
-      <workItem from="1483515230950" duration="6227000" />
+      <workItem from="1483515230950" duration="42192000" />
     </task>
     <task id="LOCAL-00001" summary="增加权限实体类">
       <created>1471344986779</created>
@@ -1633,11 +1676,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483514263484</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="登录页面">
+      <created>1483521538354</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1483521538354</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259478000" />
+    <option name="totallyTimeSpent" value="295443000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1664,19 +1714,20 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26215646" sideWeight="0.4578125" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2843552" sideWeight="0.4578125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33403805" sideWeight="0.4390625" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.49283668" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.49283668" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18921776" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1684,7 +1735,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1718,8 +1768,14 @@
           <properties />
           <option name="timeStamp" value="57" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="131" />
+      <option name="time" value="163" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1728,562 +1784,449 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/SessionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="31" column="56" lean-forward="false" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/jdbc/util/JDBCUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="256" column="0" lean-forward="true" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/proton/icons-climacons.html" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/proton/icons-climacons.html" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/proton/calendar.html" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/proton/chart-other.html" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/proton/form-wizard.html" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/proton/index.html" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/proton/page-404.html" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/images/ico/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/jquery.mmenu.css" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/climacons-font.css" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/plugins/xcharts/js/xcharts.min.js" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/plugins/fullcalendar/js/fullcalendar.min.js" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/plugins/morris/js/morris.min.js" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/plugins/jvectormap/js/gdp-data.js" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/add-ons.min.css" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/proton/html5shiv.js" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/proton/respond.min.js" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/plugins/jquery-ui/js/jquery-ui-1.10.4.min.js" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/proton/index.html" />
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/js/bootstrap-3.3.0/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/font-awesome-ie7.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <marker date="1371483119000" expanded="true" signature="2205:2266" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="2305:2366" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="2406:2467" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="2513:2574" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="2613:2674" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="2712:2773" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="2817:2878" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="2916:2977" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="3015:3076" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="3118:3179" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="3215:3276" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="3317:3378" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="3414:3475" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="3515:3576" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="3617:3678" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="3720:3781" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="3818:3879" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="3922:3983" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="4023:4084" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="4121:4182" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="4220:4281" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="4320:4381" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="4419:4480" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="4522:4583" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="4621:4682" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="4720:4781" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="4827:4888" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="4930:4991" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="5031:5092" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="5131:5192" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="5237:5298" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="5338:5399" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="5445:5506" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="5547:5608" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="5650:5711" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="5749:5810" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="5848:5909" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="5953:6014" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="6058:6119" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="6164:6225" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="6268:6329" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="6369:6430" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="6471:6532" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="6569:6630" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="6668:6729" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="6767:6828" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="6870:6931" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="6970:7031" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="7071:7132" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="7170:7231" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="7269:7330" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="7370:7431" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="7476:7537" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="7581:7642" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="7686:7747" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="7793:7854" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="7899:7960" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="8007:8068" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="8106:8167" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="8212:8273" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="8319:8380" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="8428:8489" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="8530:8591" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="8631:8692" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="8736:8797" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="8837:8898" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="8936:8997" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="9035:9096" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="9135:9196" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="9235:9296" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="9334:9395" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="9442:9503" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="9550:9611" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="9653:9714" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="9752:9813" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="9852:9913" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="9951:10012" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="10053:10114" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="10160:10221" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="10267:10328" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="10367:10428" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="10474:10535" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="10582:10643" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="10686:10747" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="10791:10852" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="10897:10958" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="10999:11060" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="11107:11168" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="11211:11272" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="11316:11377" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="11424:11485" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="11528:11589" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="11633:11694" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="11738:11799" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="11844:11905" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="11947:12008" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="12052:12113" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="12156:12217" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="12263:12324" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="12369:12430" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="12476:12537" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="12575:12636" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="12675:12736" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="12778:12839" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="12889:12950" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="12988:13049" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="13087:13148" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="13186:13247" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="13289:13350" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="13393:13454" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="13500:13561" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="13600:13661" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="13703:13764" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="13804:13865" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="13906:13967" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="14007:14068" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="14112:14173" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="14219:14280" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="14321:14382" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="14429:14490" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="14536:14597" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="14642:14703" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="14752:14813" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="14864:14925" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="14968:15029" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="15075:15136" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="15183:15244" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="15290:15351" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="15388:15449" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="15487:15548" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="15587:15648" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="15690:15751" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="15798:15859" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="15908:15969" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="16012:16073" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="16118:16179" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="16220:16281" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="16328:16389" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="16430:16491" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="16538:16599" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="16639:16700" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="16740:16801" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="16846:16907" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="16951:17012" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="17051:17112" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="17151:17212" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="17257:17318" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="17361:17422" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="17470:17531" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="17575:17636" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="17677:17738" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="17780:17841" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="17881:17942" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="17982:18043" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="18088:18149" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="18186:18247" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="18284:18345" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="18387:18448" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="18486:18547" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="18592:18653" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="18697:18758" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="18801:18862" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="18903:18964" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="19007:19068" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="19119:19180" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="19232:19293" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="19342:19403" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="19454:19515" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="19554:19615" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="19655:19716" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="19755:19816" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="19856:19917" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="19960:20021" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="20065:20126" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="20165:20226" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="20264:20325" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="20364:20425" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="20465:20526" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="20563:20624" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="20662:20723" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="20767:20828" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="20871:20932" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="20970:21031" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="21075:21136" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="21177:21238" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="21279:21340" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="21381:21442" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="21489:21550" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="21593:21654" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="21693:21754" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="21793:21854" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="21893:21954" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="21997:22058" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="22106:22167" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="22217:22278" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="22323:22384" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="22423:22484" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="22528:22589" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="22631:22692" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="22736:22797" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="22842:22903" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="22944:23005" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="23043:23104" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="23147:23208" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="23249:23310" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="23352:23413" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="23455:23516" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="23554:23615" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="23660:23721" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="23760:23821" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="23864:23925" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="23970:24031" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="24077:24138" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="24176:24237" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="24278:24339" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="24381:24442" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="24481:24542" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="24585:24646" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="24688:24749" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="24797:24858" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="24904:24965" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="25006:25067" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="25112:25173" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="25215:25276" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="25318:25379" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="25419:25480" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="25518:25579" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="25626:25687" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="25729:25790" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="25832:25893" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="25936:25997" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="26037:26098" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="26143:26204" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="26242:26303" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="26343:26404" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="26451:26512" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="26563:26624" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="26676:26737" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="26786:26847" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="26898:26959" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="27003:27064" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="27109:27170" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="27212:27273" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="27317:27378" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="27419:27480" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="27520:27581" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="27621:27682" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="27728:27789" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="27835:27896" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="27940:28001" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="28046:28107" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="28148:28209" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="28249:28310" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="28349:28410" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="28454:28515" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="28559:28620" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="28670:28731" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="28780:28841" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="28885:28946" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="28992:29053" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="29092:29153" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="29192:29253" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="29290:29351" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="29392:29453" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="29495:29556" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="29598:29659" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="29707:29768" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="29810:29871" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="29909:29970" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="30013:30074" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="30122:30183" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="30232:30293" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="30341:30402" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="30450:30511" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="30549:30610" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="30653:30714" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="30754:30815" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="30857:30918" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="30956:31017" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="31062:31123" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="31168:31229" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="31272:31333" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="31373:31434" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="31480:31541" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="31585:31646" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="31694:31755" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="31795:31856" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="31904:31965" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="32016:32077" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="32117:32178" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="32218:32279" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="32330:32391" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="32443:32504" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="32553:32614" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="32665:32726" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="32765:32826" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="32864:32925" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="32965:33026" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="33070:33131" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="33173:33234" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="33287:33348" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="33399:33460" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="33502:33563" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="33606:33667" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="33707:33768" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="33816:33877" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="33922:33983" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="34025:34086" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="34130:34191" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="34235:34296" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="34339:34400" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="34452:34513" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="34557:34618" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="34659:34720" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="34762:34823" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="34869:34930" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="34970:35031" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="35068:35129" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="35167:35228" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="35265:35326" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="35363:35424" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="35464:35525" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="35562:35623" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="35662:35723" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="35760:35821" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="35858:35919" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="35956:36017" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="36059:36120" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="36157:36218" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="36255:36316" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="36353:36414" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="36455:36516" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="36554:36615" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="36658:36719" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="36769:36830" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="36884:36945" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="36997:37058" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="37114:37175" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="37222:37283" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="37334:37395" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="37438:37499" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="37544:37605" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="37651:37712" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="37753:37814" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="37852:37913" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="37956:38017" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="38063:38124" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="38165:38226" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="38273:38334" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="38377:38438" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="38478:38539" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="38576:38637" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="38680:38741" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="38789:38850" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="38890:38951" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="38996:39057" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="39106:39167" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="39214:39275" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="39324:39385" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="39435:39496" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="39535:39596" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="39637:39698" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="39739:39800" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="39839:39900" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="39942:40003" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="40042:40103" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="40147:40208" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="40248:40309" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="40349:40410" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="40448:40509" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="40549:40610" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="40647:40708" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="40746:40807" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="40848:40909" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="40946:41007" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="41043:41104" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="41143:41204" ph="{...}" />
-            <marker date="1371483119000" expanded="true" signature="41244:41305" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="328" column="16" lean-forward="false" selection-start-line="328" selection-start-column="16" selection-end-line="328" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="62" lean-forward="true" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        <state relative-caret-position="-93">
+          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/config.properties">
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="110" column="53" lean-forward="true" selection-start-line="110" selection-start-column="53" selection-end-line="110" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/exception/InvalidPassWordException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/realm/CachingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding>
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/AdviceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/support/SubjectCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/KickoutSessionControlFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="153" column="8" lean-forward="false" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/SimplePrincipalCollection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1273">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#6568#6569#0" expanded="true" />
+            <element signature="e#6653#6654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/PrincipalCollection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="492" column="0" lean-forward="true" selection-start-line="492" selection-start-column="0" selection-end-line="492" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/StateCodeConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+        <state relative-caret-position="371">
+          <caret line="80" column="16" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/js/index.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/support/DelegatingSubject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="104" column="63" lean-forward="false" selection-start-line="104" selection-start-column="63" selection-end-line="104" selection-end-column="63" />
+          <folding>
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3555#3556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/mgt/AuthorizingSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authz/Authorizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authz/ModularRealmAuthorizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="107" column="33" lean-forward="false" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/entity/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/dao/SysRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/entity/SysRoleExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/entity/SysRoleAuthority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/target/generated-sources/mybatis-generator/com/zi/dal/sysrole/entity/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/entity/SysRoleAuthorityExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="189" column="4" lean-forward="true" selection-start-line="189" selection-start-column="4" selection-end-line="193" selection-end-column="16" />
+          <folding>
+            <marker date="1483588437108" expanded="true" signature="6560:6716" ph="select , fro... " />
+            <marker date="1483588437108" expanded="true" signature="6998:7061" ph="delete from " />
+            <marker date="1483588437108" expanded="true" signature="7374:7399" ph="delete from " />
+            <marker date="1483588437108" expanded="true" signature="7922:8411" ph="insert into sys_authority... " />
+            <marker date="1483588437108" expanded="true" signature="10954:10988" ph="select count... sys_authority" />
+            <marker date="1483588437108" expanded="true" signature="12944:13528" ph="update sys_a... " />
+            <marker date="1483588437108" expanded="true" signature="13897:14433" ph="update sys_a... " />
+            <marker date="1483588437108" expanded="true" signature="14854:15869" ph="update sys_a... " />
+            <marker date="1483588437108" expanded="true" signature="16187:16697" ph="update sys_a... " />
+            <marker date="1483588437108" expanded="true" signature="17006:17475" ph="update sys_a... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/dao/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="15" column="65" lean-forward="true" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding>
+            <marker date="1483580289965" expanded="true" signature="5724:5828" ph="select from sys_user" />
+            <marker date="1483580289965" expanded="true" signature="6110:6168" ph="delete from " />
+            <marker date="1483580289965" expanded="true" signature="6471:6491" ph="delete from " />
+            <marker date="1483580289965" expanded="true" signature="7004:7767" ph="insert into sys_user... " />
+            <marker date="1483580289965" expanded="true" signature="11216:11245" ph="select count... sys_user" />
+            <marker date="1483580289965" expanded="true" signature="13868:14782" ph="update sys_u... " />
+            <marker date="1483580289965" expanded="true" signature="15193:16800" ph="update sys_u... " />
+            <marker date="1483580289965" expanded="true" signature="17099:17897" ph="update sys_u... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/dao/SysRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="162" column="16" lean-forward="false" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="16" />
+          <folding>
+            <marker date="1483600856117" expanded="true" signature="4734:4838" ph="select from sys_role" />
+            <marker date="1483600856117" expanded="true" signature="5120:5178" ph="delete from " />
+            <marker date="1483600856117" expanded="true" signature="5481:5501" ph="delete from " />
+            <marker date="1483600856117" expanded="true" signature="6014:6240" ph="insert into sys_role... " />
+            <marker date="1483600856117" expanded="true" signature="7878:7907" ph="select count... sys_role" />
+            <marker date="1483600856117" expanded="true" signature="9204:9469" ph="update sys_r... " />
+            <marker date="1483600856117" expanded="true" signature="9880:10329" ph="update sys_r... " />
+            <marker date="1483600856117" expanded="true" signature="10628:10861" ph="update sys_r... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="57" column="48" lean-forward="true" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+        <state relative-caret-position="266">
+          <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/dao/SysRoleAuthorityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="140" column="4" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="144" selection-end-column="16" />
+          <folding>
+            <marker date="1483600867205" expanded="true" signature="4654:4768" ph="select from sys_role_authority" />
+            <marker date="1483600867205" expanded="true" signature="5050:5118" ph="delete from " />
+            <marker date="1483600867205" expanded="true" signature="5439:5469" ph="delete from " />
+            <marker date="1483600867205" expanded="true" signature="6000:6169" ph="insert into sys_role_authority... " />
+            <marker date="1483600867205" expanded="true" signature="7574:7613" ph="select count... sys_role_authority" />
+            <marker date="1483600867205" expanded="true" signature="8717:8897" ph="update sys_r... " />
+            <marker date="1483600867205" expanded="true" signature="9326:9610" ph="update sys_r... " />
+            <marker date="1483600867205" expanded="true" signature="9927:10089" ph="update sys_r... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleuser/dao/SysRoleUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="160" column="16" lean-forward="false" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
+          <folding>
+            <marker date="1483601570629" expanded="true" signature="4604:4713" ph="select from sys_role_user" />
+            <marker date="1483601570629" expanded="true" signature="4995:5058" ph="delete from " />
+            <marker date="1483601570629" expanded="true" signature="5369:5394" ph="delete from " />
+            <marker date="1483601570629" expanded="true" signature="5915:6069" ph="insert into sys_role_user... " />
+            <marker date="1483601570629" expanded="true" signature="7429:7463" ph="select count... sys_role_user" />
+            <marker date="1483601570629" expanded="true" signature="8547:8712" ph="update sys_r... " />
+            <marker date="1483601570629" expanded="true" signature="9131:9395" ph="update sys_r... " />
+            <marker date="1483601570629" expanded="true" signature="9702:9849" ph="update sys_r... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/dao/SysRoleAuthorityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleAuthorityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="99" lean-forward="true" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleAuthorityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authz/SimpleAuthorizationInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysAuthorityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysAuthorityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="66" column="43" lean-forward="true" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/common/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="171">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="49" column="75" lean-forward="false" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
+        <state relative-caret-position="349">
+          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2292,112 +2235,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/UrlPermissionsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/exception/UserNotLoginException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#171#172#0" expanded="false" />
-            <element signature="e#194#195#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/result/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/advice/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Preconditions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="56" column="78" lean-forward="true" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
+        <state relative-caret-position="320">
+          <caret line="46" column="57" lean-forward="true" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state relative-caret-position="390">
+          <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/index.css">
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="373">
+          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/css/_index.css">
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="506">
+          <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
           <folding />
         </state>
       </provider>

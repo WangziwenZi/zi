@@ -77,7 +77,11 @@ public enum StateCodeConstant {
     /*412 （未满足前提条件）*/
     STATE_412("未满足前提条件", 412),
     /*401 登录未授权*/
-    STATE_401("登录未授权", 401);
+    STATE_401("登录未授权", 401),
+    /*401 鉴权失败*/
+    STATE_402("鉴权失败", 402),
+    /*401 登录超时*/
+    STATE_403("登录超时", 403);
 
     private String msg;
     private int code;

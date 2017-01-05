@@ -22,32 +22,35 @@
     width: 50px;
 }
 
-.panel .menu .nav_tree li {
-    display: block;
-}
-
-.panel .menu .nav_tree li a {
-    text-decoration: none;
-    font-size: 13px;
+.node i {
+    font-size: 16px;
     color: #a6a6a6;
+    padding-left:1em;
 }
 
-.panel .menu .nav_tree li a:hover {
+.node span {
+    color: #848788;
+    padding-left: 1.4em;
+}
+
+.node a span:hover {
     color: #FFF;
 }
 
-.panel .menu .nav_tree li i {
-    margin: 0em 0.7em;
+.node a {
+    text-decoration: none;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    padding: 0.8em;
 }
 
-.menu .nav_tree .child li{
-    padding-left: 1.7em;
+.child a {
+    padding-left: 3em;
+    margin: 5px 0px 5px 0px;
 }
 
-.downIco {
-    padding-top: 0.3em;
-}
-.active{
-    color:#FFF;
-    background:#d95043;
+.active, .active span {
+    background: #d95043;
+    color: #FFF;
 }

@@ -16,11 +16,11 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         boolean flag = true;
-        SysUser user = (SysUser) SecurityUtils.getSubject().getSession().getAttribute(SysConstant.THE_LANDING_USER);
+        /*SysUser user = (SysUser) SecurityUtils.getSubject().getSession().getAttribute(SysConstant.THE_LANDING_USER);
         if (user == null) {
             flag = false;
             throw new UserNotLoginException();
-        }
+        }*/
         return flag;
     }
 

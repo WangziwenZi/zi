@@ -40,11 +40,11 @@ public class JsonResolvers implements HandlerMethodArgumentResolver {
             String value = StringUtils.join(values);
             json.addProperty(name, value);
         }
-        if (json.get("save") != null && StringUtils.equalsIgnoreCase(json.get("save").getAsString(), SysConstant.Y)) {
+        if (json.get("save") != null && StringUtils.equalsIgnoreCase(json.get("save").getAsString(), SysConstant.YES.getValue())) {
             json.addProperty("createTime", DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss"));
             json.addProperty("modifyTime", DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss"));
-            json.addProperty("isDeleted", SysConstant.N);
-        } else if (json.get("update") != null && StringUtils.equalsIgnoreCase(json.get("update").getAsString(), SysConstant.Y)) {
+            json.addProperty("isDeleted", SysConstant.NO.getValue());
+        } else if (json.get("update") != null && StringUtils.equalsIgnoreCase(json.get("update").getAsString(), SysConstant.YES.getValue())) {
             json.addProperty("modifyTime", DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss"));
         }
         return json;

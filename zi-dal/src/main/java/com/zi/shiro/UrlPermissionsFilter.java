@@ -77,8 +77,6 @@ public class UrlPermissionsFilter extends PermissionsAuthorizationFilter {
                 String validateUrl = sysAuthority.getUrl();
                 if (StringUtils.isEmpty(validateUrl))
                     continue;
-                if (org.apache.commons.lang.StringUtils.isEmpty(validateUrl))
-                    continue;
                 if (perms.equalsIgnoreCase(validateUrl)) {
                     exitTag = true;// 表示权限认证里面存在需要进行认证的
                     continue;

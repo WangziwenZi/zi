@@ -7,31 +7,27 @@ package com.zi.sys.constant;
 /**
  * 记录全局常量
  */
-public class SysConstant {
-//    全局key
-    /**
-     * 当前登录用户
-     */
-    public static final String THE_LANDING_USER = "THE_LANDING_USER";
+public enum SysConstant {
+    YES("Y"),
+    NO("N");
 
-//    通用字段
-    /**
-     * 当前页
-     */
-    public static final String CURRENT_PAGE = "current_page";
+    private SysConstant(String value) {
+        this.value = value;
+    }
+    private SysConstant(String key, String value) {
+        this.key = key;
+        this.value = value;
+    }
 
-    /**
-     * 每页数量
-     */
-    public static final String PAGE_SIZE = "page_size";
+    private String key;
+    private String value;
 
-    /**
-     * 总页数
-     */
-    public static final String TOTAL_PAGE = "total_page";
+    public String getKey() {
+        return key;
+    }
 
-    public static final String N = "N";
-
-    public static final String Y = "Y";
+    public String getValue() {
+        return value;
+    }
 
 }

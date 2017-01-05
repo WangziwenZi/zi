@@ -23,6 +23,9 @@
       <excludeFolder url="file://$MODULE_DIR$/target/generated-sources/mybatis-generator/com/zi/dal/shiroresource" />
       <excludeFolder url="file://$MODULE_DIR$/target/generated-sources/mybatis-generator/com/zi/dal/sys" />
       <excludeFolder url="file://$MODULE_DIR$/target/generated-sources/mybatis-generator/com/zi/dal/sys/authority" />
+      <excludeFolder url="file://$MODULE_DIR$/target/generated-sources/mybatis-generator/com/zi/dal/sysAuthority" />
+      <excludeFolder url="file://$MODULE_DIR$/target/generated-sources/mybatis-generator/com/zi/dal/sysMenu" />
+      <excludeFolder url="file://$MODULE_DIR$/target/generated-sources/mybatis-generator/com/zi/dal/sysroleuser" />
       <excludeFolder url="file://$MODULE_DIR$/target/zi-dal" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
