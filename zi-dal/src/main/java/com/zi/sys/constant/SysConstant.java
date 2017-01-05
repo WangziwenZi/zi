@@ -9,10 +9,15 @@ package com.zi.sys.constant;
  */
 public enum SysConstant {
     YES("Y"),
-    NO("N");
+    NO("N"),
+    TRUE(true),
+    FALSE(false);
 
     private SysConstant(String value) {
         this.value = value;
+    }
+    private SysConstant(boolean value) {
+        this.booValue = value;
     }
     private SysConstant(String key, String value) {
         this.key = key;
@@ -21,6 +26,11 @@ public enum SysConstant {
 
     private String key;
     private String value;
+    private boolean booValue;
+
+    public boolean isBooValue() {
+        return booValue;
+    }
 
     public String getKey() {
         return key;

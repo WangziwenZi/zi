@@ -5,56 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63092db8-e5c9-40d3-b981-a49f5b1322ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/dao/SysRoleMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/dao/SysRoleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/entity/SysRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/entity/SysRoleExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/dao/SysRoleAuthorityMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/dao/SysRoleAuthorityMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/entity/SysRoleAuthority.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/entity/SysRoleAuthorityExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleuser/dao/SysRoleUserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleuser/dao/SysRoleUserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleuser/entity/SysRoleUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleuser/entity/SysRoleUserExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/MenuService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleAuthorityService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleUserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/MenuServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleAuthorityServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleUserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/resources/config/mybatis-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/entity/SysMenuCustom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrolemenu/dao/SysRoleMenuMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrolemenu/dao/SysRoleMenuMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrolemenu/entity/SysRoleMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrolemenu/entity/SysRoleMenuExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/util/LoginSysUserUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/entity/SysMenu.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/entity/SysMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/entity/SysMenuExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/entity/SysMenuExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/dao/SysUserMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/dao/SysUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUser.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/entity/SysAuthority.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/entity/SysAuthority.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/entity/SysAuthorityExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/entity/SysAuthorityExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/LoginInterceptor.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/LoginInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysAuthorityService.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysAuthorityService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysAuthorityServiceImpl.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysAuthorityServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/UrlPermissionsFilter.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/UrlPermissionsFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/StateCodeConstant.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/StateCodeConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/MenuService.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/MenuService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/MenuServiceImpl.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/MenuServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleAuthorityServiceImpl.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleAuthorityServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-dao.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/result/Result.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/result/Result.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/zi-dal/src/main/resources/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/src/main/webapp/css/_index.css" afterPath="$PROJECT_DIR$/zi-dal/src/main/webapp/css/_index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zi-dal/zi-dal.iml" afterPath="$PROJECT_DIR$/zi-dal/zi-dal.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/dao/SysMenuMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.xml" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/dao/SysMenuMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/entity/SysMenu.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/entity/SysMenu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/entity/SysMenuExample.java" afterPath="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/entity/SysMenuExample.java" />
     </list>
     <ignored path="zi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,11 +60,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <file leaf-file-name="MenuServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/MenuServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+            <state relative-caret-position="360">
+              <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-shiro.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="88" column="12" lean-forward="true" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/SessionFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysAuthorityMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="244" column="11" lean-forward="true" selection-start-line="244" selection-start-column="11" selection-end-line="244" selection-end-column="11" />
+              <folding>
+                <marker date="1483612223083" expanded="true" signature="6560:6716" ph="select , fro... " />
+                <marker date="1483612223083" expanded="true" signature="6998:7061" ph="delete from " />
+                <marker date="1483612223083" expanded="true" signature="7374:7399" ph="delete from " />
+                <marker date="1483612223083" expanded="true" signature="7918:8407" ph="insert into sys_authority... " />
+                <marker date="1483612223083" expanded="true" signature="10950:10984" ph="select count... sys_authority" />
+                <marker date="1483612223083" expanded="true" signature="12940:13524" ph="update sys_a... " />
+                <marker date="1483612223083" expanded="true" signature="13893:14429" ph="update sys_a... " />
+                <marker date="1483612223083" expanded="true" signature="14850:15865" ph="update sys_a... " />
+                <marker date="1483612223083" expanded="true" signature="16183:16693" ph="update sys_a... " />
+                <marker date="1483612223083" expanded="true" signature="17002:17471" ph="update sys_a... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysAuthorityMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysAuthorityExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/entity/SysAuthorityExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -100,11 +144,9 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="292">
+              <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,8 +154,20 @@
       <file leaf-file-name="MenuController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            <state relative-caret-position="243">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysMenuMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/dao/SysMenuMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -125,8 +179,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -179,12 +233,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/exception/UserNotLoginException.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/exception/InvalidPassWordException.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/advice/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/result/Result.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/jdbc/util/JDBCUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/proton/index.html" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/proton/html5shiv.js" />
@@ -198,31 +246,21 @@
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/dao/SysUserMapper.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysMenu/dao/SysMenuMapper.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/MenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/MenuService.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysAuthority/dao/SysAuthorityMapper.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUserExample.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/resources/config/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.xml" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUser.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/StateCodeConstant.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/dao/SysRoleMapper.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/dao/SysRoleAuthorityMapper.xml" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleuser/dao/SysRoleUserMapper.xml" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleUserService.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleAuthorityServiceImpl.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleAuthorityService.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysRoleService.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/UrlPermissionsFilter.java" />
-        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysAuthorityServiceImpl.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/SysAuthorityService.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java" />
@@ -230,6 +268,22 @@
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/resolvers/JsonResolvers.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java" />
         <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrolemenu/dao/SysRoleMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/dao/SysMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/MenuService.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/result/Result.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/entity/SysMenuCustom.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/entity/SysMenu.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleAuthorityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/util/LoginSysUserUtil.java" />
+        <option value="$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/MenuServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -312,19 +366,10 @@
           <State>
             <id />
           </State>
-          <State>
-            <id>CodeSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>SpringJavaAutowiringInspection</id>
+            <id>Android</id>
           </State>
         </selected-state>
       </profile-state>
@@ -345,8 +390,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -388,54 +432,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated-sources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated-sources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -614,48 +610,6 @@
               <option name="myItemId" value="zi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="constant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -793,104 +747,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resolvers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interceptor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi-dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="dal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -929,7 +785,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sysroleauthority" />
+              <option name="myItemId" value="sysauthority" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -967,7 +827,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sysroleauthority" />
+              <option name="myItemId" value="sysauthority" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1011,7 +871,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1022,7 +883,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27262694" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/IDEA/wangziwenUniqueGit/zi/zi-dal/src/main/webapp/css/_index.css" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
@@ -1632,7 +1493,8 @@
       <workItem from="1482982474430" duration="14950000" />
       <workItem from="1483064589552" duration="20373000" />
       <workItem from="1483429586374" duration="31499000" />
-      <workItem from="1483515230950" duration="42192000" />
+      <workItem from="1483515230950" duration="48571000" />
+      <workItem from="1483615186569" duration="1406000" />
     </task>
     <task id="LOCAL-00001" summary="增加权限实体类">
       <created>1471344986779</created>
@@ -1683,11 +1545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483521538354</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="登录页面">
+      <created>1483608747945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1483608747945</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295443000" />
+    <option name="totallyTimeSpent" value="303228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1714,7 +1583,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2843552" sideWeight="0.4578125" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27906978" sideWeight="0.4578125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33403805" sideWeight="0.4390625" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1727,14 +1596,15 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1769,13 +1639,13 @@
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/UrlPermissionsFilter.java</url>
+          <line>105</line>
           <properties />
-          <option name="timeStamp" value="161" />
+          <option name="timeStamp" value="170" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="163" />
+      <option name="time" value="176" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1784,226 +1654,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="110" column="53" lean-forward="true" selection-start-line="110" selection-start-column="53" selection-end-line="110" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/exception/InvalidPassWordException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/realm/CachingRealm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-          <folding>
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/AdviceFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/OncePerRequestFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/support/SubjectCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/KickoutSessionControlFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="153" column="8" lean-forward="false" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/SimplePrincipalCollection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1273">
-          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="e#6568#6569#0" expanded="true" />
-            <element signature="e#6653#6654#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/PrincipalCollection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="492" column="0" lean-forward="true" selection-start-line="492" selection-start-column="0" selection-end-line="492" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/StateCodeConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="80" column="16" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/Subject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/support/DelegatingSubject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="104" column="63" lean-forward="false" selection-start-line="104" selection-start-column="63" selection-end-line="104" selection-end-column="63" />
-          <folding>
-            <element signature="e#3486#3487#0" expanded="true" />
-            <element signature="e#3555#3556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/mgt/AuthorizingSecurityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authz/Authorizer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authz/ModularRealmAuthorizer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="107" column="33" lean-forward="false" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/entity/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/dao/SysRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrole/entity/SysRoleExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/entity/SysRoleAuthority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/target/generated-sources/mybatis-generator/com/zi/dal/sysrole/entity/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/entity/SysRoleAuthorityExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="189" column="4" lean-forward="true" selection-start-line="189" selection-start-column="4" selection-end-line="193" selection-end-column="16" />
-          <folding>
-            <marker date="1483588437108" expanded="true" signature="6560:6716" ph="select , fro... " />
-            <marker date="1483588437108" expanded="true" signature="6998:7061" ph="delete from " />
-            <marker date="1483588437108" expanded="true" signature="7374:7399" ph="delete from " />
-            <marker date="1483588437108" expanded="true" signature="7922:8411" ph="insert into sys_authority... " />
-            <marker date="1483588437108" expanded="true" signature="10954:10988" ph="select count... sys_authority" />
-            <marker date="1483588437108" expanded="true" signature="12944:13528" ph="update sys_a... " />
-            <marker date="1483588437108" expanded="true" signature="13897:14433" ph="update sys_a... " />
-            <marker date="1483588437108" expanded="true" signature="14854:15869" ph="update sys_a... " />
-            <marker date="1483588437108" expanded="true" signature="16187:16697" ph="update sys_a... " />
-            <marker date="1483588437108" expanded="true" signature="17006:17475" ph="update sys_a... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2045,32 +1700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/dao/SysRoleAuthorityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="140" column="4" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="144" selection-end-column="16" />
-          <folding>
-            <marker date="1483600867205" expanded="true" signature="4654:4768" ph="select from sys_role_authority" />
-            <marker date="1483600867205" expanded="true" signature="5050:5118" ph="delete from " />
-            <marker date="1483600867205" expanded="true" signature="5439:5469" ph="delete from " />
-            <marker date="1483600867205" expanded="true" signature="6000:6169" ph="insert into sys_role_authority... " />
-            <marker date="1483600867205" expanded="true" signature="7574:7613" ph="select count... sys_role_authority" />
-            <marker date="1483600867205" expanded="true" signature="8717:8897" ph="update sys_r... " />
-            <marker date="1483600867205" expanded="true" signature="9326:9610" ph="update sys_r... " />
-            <marker date="1483600867205" expanded="true" signature="9927:10089" ph="update sys_r... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2078,16 +1707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
           <caret line="160" column="16" lean-forward="false" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
-          <folding>
-            <marker date="1483601570629" expanded="true" signature="4604:4713" ph="select from sys_role_user" />
-            <marker date="1483601570629" expanded="true" signature="4995:5058" ph="delete from " />
-            <marker date="1483601570629" expanded="true" signature="5369:5394" ph="delete from " />
-            <marker date="1483601570629" expanded="true" signature="5915:6069" ph="insert into sys_role_user... " />
-            <marker date="1483601570629" expanded="true" signature="7429:7463" ph="select count... sys_role_user" />
-            <marker date="1483601570629" expanded="true" signature="8547:8712" ph="update sys_r... " />
-            <marker date="1483601570629" expanded="true" signature="9131:9395" ph="update sys_r... " />
-            <marker date="1483601570629" expanded="true" signature="9702:9849" ph="update sys_r... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2095,7 +1714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2103,17 +1721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleAuthorityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="99" lean-forward="true" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2121,7 +1728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2130,37 +1736,7 @@
         <state relative-caret-position="285">
           <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-          <folding>
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2169,17 +1745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2191,27 +1756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysAuthorityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="66" column="43" lean-forward="true" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2219,52 +1767,348 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="81" column="58" lean-forward="false" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java">
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysroleauthority/dao/SysRoleAuthorityMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+        <state relative-caret-position="323">
+          <caret line="156" column="4" lean-forward="false" selection-start-line="156" selection-start-column="4" selection-end-line="160" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysrolemenu/dao/SysRoleMenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="139" column="43" lean-forward="true" selection-start-line="139" selection-start-column="43" selection-end-line="139" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/MapperFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/result/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/constant/SysConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#290#291#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#553#554#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/entity/SysMenuCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/entity/SysMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/dao/SysMenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <marker date="1483612223038" expanded="true" signature="5166:5270" ph="select from sys_menu" />
+            <marker date="1483612223038" expanded="true" signature="5552:5610" ph="delete from " />
+            <marker date="1483612223038" expanded="true" signature="5913:5933" ph="delete from " />
+            <marker date="1483612223038" expanded="true" signature="6446:6911" ph="insert into sys_menu... " />
+            <marker date="1483612223038" expanded="true" signature="9322:9351" ph="select count... sys_menu" />
+            <marker date="1483612223038" expanded="true" signature="11215:11761" ph="update sys_m... " />
+            <marker date="1483612223038" expanded="true" signature="12172:13118" ph="update sys_m... " />
+            <marker date="1483612223038" expanded="true" signature="13417:13896" ph="update sys_m... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysAuthorityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="81" column="86" lean-forward="false" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleAuthorityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/SysRoleUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1168#1177#0" expanded="false" />
+            <element signature="e#1255#1256#0" expanded="false" />
+            <element signature="e#1307#1308#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/config/ehcache-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="258" column="40" lean-forward="true" selection-start-line="258" selection-start-column="40" selection-end-line="258" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/config/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/target/classes/com/zi/dal/sysUser/entity/SysUser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="70" lean-forward="true" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysUser/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/UrlPermissionsFilter.java">
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="46" column="57" lean-forward="true" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/factory/ServiceImplFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.1.RELEASE/spring-web-4.3.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="142" column="56" lean-forward="true" selection-start-line="142" selection-start-column="56" selection-end-line="142" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/sys/util/LoginSysUserUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/MyRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/UrlPermissionsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/config/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="88" column="12" lean-forward="true" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/shiro/SessionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/entity/SysAuthority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/entity/SysAuthorityExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysauthority/dao/SysAuthorityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="244" column="11" lean-forward="true" selection-start-line="244" selection-start-column="11" selection-end-line="244" selection-end-column="11" />
+          <folding>
+            <marker date="1483612223083" expanded="true" signature="6560:6716" ph="select , fro... " />
+            <marker date="1483612223083" expanded="true" signature="6998:7061" ph="delete from " />
+            <marker date="1483612223083" expanded="true" signature="7374:7399" ph="delete from " />
+            <marker date="1483612223083" expanded="true" signature="7918:8407" ph="insert into sys_authority... " />
+            <marker date="1483612223083" expanded="true" signature="10950:10984" ph="select count... sys_authority" />
+            <marker date="1483612223083" expanded="true" signature="12940:13524" ph="update sys_a... " />
+            <marker date="1483612223083" expanded="true" signature="13893:14429" ph="update sys_a... " />
+            <marker date="1483612223083" expanded="true" signature="14850:15865" ph="update sys_a... " />
+            <marker date="1483612223083" expanded="true" signature="16183:16693" ph="update sys_a... " />
+            <marker date="1483612223083" expanded="true" signature="17002:17471" ph="update sys_a... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+        <state relative-caret-position="292">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/controller/MenuController.java">
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/dal/sysmenu/dao/SysMenuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="285">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/webapp/WEB-INF/jsp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/zi-dal/src/main/java/com/zi/service/impl/MenuServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+        <state relative-caret-position="360">
+          <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
           <folding />
         </state>
       </provider>

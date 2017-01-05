@@ -1,13 +1,12 @@
 package com.zi.sys.factory;
 
-import com.zi.dal.sysMenu.dao.SysMenuMapper;
 import com.zi.dal.sysUser.dao.SysUserMapper;
 import com.zi.dal.sysauthority.dao.SysAuthorityMapper;
+import com.zi.dal.sysmenu.dao.SysMenuMapper;
 import com.zi.dal.sysrole.dao.SysRoleMapper;
 import com.zi.dal.sysroleauthority.dao.SysRoleAuthorityMapper;
+import com.zi.dal.sysrolemenu.dao.SysRoleMenuMapper;
 import com.zi.dal.sysroleuser.dao.SysRoleUserMapper;
-import com.zi.dal.sysroleuser.entity.SysRoleUser;
-import com.zi.service.SysRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
@@ -32,6 +31,13 @@ public class MapperFactory {
 
     @Autowired
     private SysAuthorityMapper sysAuthorityMapper;
+
+    @Autowired
+    private SysRoleMenuMapper sysRoleMenuMapper;
+
+    public SysRoleMenuMapper getSysRoleMenuMapper() {
+        return sysRoleMenuMapper;
+    }
 
     public SysAuthorityMapper getSysAuthorityMapper() {
         return sysAuthorityMapper;

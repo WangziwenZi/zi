@@ -2,9 +2,10 @@ package com.zi.controller;
 
 import com.github.pagehelper.PageInfo;
 import com.google.common.base.Preconditions;
-import com.zi.dal.sysMenu.entity.SysMenu;
-import com.zi.dal.sysMenu.entity.SysMenuExample;
+import com.zi.dal.sysmenu.entity.SysMenu;
+import com.zi.dal.sysmenu.entity.SysMenuExample;
 import com.zi.sys.constant.StateCodeConstant;
+import com.zi.sys.constant.SysConstant;
 import com.zi.sys.factory.ServiceImplFactory;
 import com.zi.sys.result.Result;
 import org.apache.commons.lang3.StringUtils;
@@ -50,5 +51,16 @@ public class MenuController extends ServiceImplFactory {
     public Result findByPage(PageInfo<SysMenu> param) {
         PageInfo<SysMenu> result = super.getMenuService().findByPage(new SysMenuExample(), param);
         return new Result();
+    }
+
+    /**
+     * 查询用户菜单
+     *
+     * @return
+     */
+    @RequestMapping("findByUserId")
+    @ResponseBody
+    public Result findByUserId() {
+        return new Result(SysConstant.TRUE.isBooValue(), super.getMenuService().findByUserId());
     }
 }

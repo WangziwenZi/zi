@@ -60,10 +60,9 @@
             })
 
             $.ajax({
-                url: "/menu/findByPage.htm",
+                url: "/menu/findByUserId.htm",
                 type: "post",
                 dataType: "json",
-                data: {pageNum: 1, pageSize: 3},
                 success: function (data) {
                     console.info(data);
                 }
