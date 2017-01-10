@@ -1,6 +1,7 @@
 package com.zi.service;
 
 import com.github.pagehelper.PageInfo;
+import com.google.gson.JsonArray;
 import com.zi.dal.sysmenu.entity.SysMenu;
 import com.zi.dal.sysmenu.entity.SysMenuExample;
 
@@ -22,5 +23,7 @@ public interface MenuService {
      * @return
      */
     public List<SysMenu> findByUserId();
+
+    public JsonArray toJson(List<SysMenu> sysMenus);
 
 }

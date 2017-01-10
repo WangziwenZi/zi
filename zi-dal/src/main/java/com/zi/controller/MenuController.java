@@ -2,6 +2,7 @@ package com.zi.controller;
 
 import com.github.pagehelper.PageInfo;
 import com.google.common.base.Preconditions;
+import com.google.gson.JsonArray;
 import com.zi.dal.sysmenu.entity.SysMenu;
 import com.zi.dal.sysmenu.entity.SysMenuExample;
 import com.zi.sys.constant.StateCodeConstant;
@@ -12,6 +13,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.util.List;
 
 /**
  * Created by Administrator on 2017/1/5 0005.
@@ -61,6 +64,8 @@ public class MenuController extends ServiceImplFactory {
     @RequestMapping("findByUserId")
     @ResponseBody
     public Result findByUserId() {
-        return new Result(SysConstant.TRUE.isBooValue(), super.getMenuService().findByUserId());
+        List<SysMenu> data = super.getMenuService().findByUserId();
+        JsonArray result = super.getMenuService().toJson(data);
+        return new Result(SysConstant.TRUE.isBooValue(), result);
     }
 }

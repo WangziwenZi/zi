@@ -4,6 +4,10 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 import com.zi.dal.sysUser.entity.SysUser;
 import com.zi.dal.sysauthority.entity.SysAuthority;
 import com.zi.dal.sysauthority.entity.SysAuthorityExample;
@@ -23,6 +27,7 @@ import com.zi.sys.util.LoginSysUserUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
+import java.text.MessageFormat;
 import java.util.List;
 
 /**
@@ -126,5 +131,32 @@ public class MenuServiceImpl extends MapperFactory implements MenuService {
         return result;
     }
 
+    public JsonArray toJson(List<SysMenu> sysMenus){
+        JsonArray result = new JsonArray();
+        for (SysMenu each:sysMenus){
+            if (StringUtils.isBlank(each.getParentId())){
+                result.add(new Gson().toJsonTree(each));
+            }
+        }
+        for (JsonElement each:result){
+            JsonObject eachMenu = each.getAsJsonObject();
+            eachMenu.add("childs",recursive(eachMenu,sysMenus));
+        }
+        return result;
+    }
+
+    private JsonArray recursive(JsonObject node, List<SysMenu> sysMenus){
+        JsonArray result = new JsonArray();
+        for (SysMenu each:sysMenus){
+            if (StringUtils.equals(node.get("id").getAsString(),each.getParentId())){
+                JsonObject jsonEach = new Gson().toJsonTree(each).getAsJsonObject();
+                if (StringUtils.isNotBlank(each.getParentId())){
+                    jsonEach.add("childs",recursive(jsonEach,sysMenus));
+                }
+                result.add(jsonEach);
+            }
+        }
+        return result;
+    }
 
 }

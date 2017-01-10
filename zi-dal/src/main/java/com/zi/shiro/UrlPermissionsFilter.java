@@ -27,7 +27,9 @@ public class UrlPermissionsFilter extends PermissionsAuthorizationFilter {
     private SysAuthorityService sysAuthorityService;
 
     /**
-     * @param mappedValue 指的是在声明url时指定的权限字符串，如 我们要动态产生这个权限字符串，
+     * 拦截Url，如果Url和当前用户的权限匹配就进行跳转.
+     * 如果Url和当前用户的权限不匹配但是存在就跳转到未授权页面.
+     * @param mappedValue
      */
     public boolean isAccessAllowed(ServletRequest request,
                                    ServletResponse response, Object mappedValue) throws IOException {
@@ -99,6 +101,14 @@ public class UrlPermissionsFilter extends PermissionsAuthorizationFilter {
         perms[0] = path;// path直接作为权限字符串
         return perms;
     }
+
+    /**
+     * 如果是未经认证的url就跳转到未授权页面
+     * @param request
+     * @param response
+     * @return
+     * @throws IOException
+     */
 
     protected boolean onAccessDenied(ServletRequest request,
                                      ServletResponse response) throws IOException {
