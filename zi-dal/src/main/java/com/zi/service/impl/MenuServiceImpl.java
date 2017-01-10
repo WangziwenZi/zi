@@ -131,28 +131,27 @@ public class MenuServiceImpl extends MapperFactory implements MenuService {
         return result;
     }
 
-    public JsonArray toJson(List<SysMenu> sysMenus){
+    public JsonArray toJson(List<SysMenu> sysMenus) {
         JsonArray result = new JsonArray();
-        for (SysMenu each:sysMenus){
-            if (StringUtils.isBlank(each.getParentId())){
+        for (SysMenu each : sysMenus) {
+            if (StringUtils.isBlank(each.getParentId())) {
                 result.add(new Gson().toJsonTree(each));
             }
         }
-        for (JsonElement each:result){
+        for (JsonElement each : result) {
             JsonObject eachMenu = each.getAsJsonObject();
-            eachMenu.add("childs",recursive(eachMenu,sysMenus));
+            eachMenu.add("childs", recursive(eachMenu, sysMenus));
         }
         return result;
     }
 
-    private JsonArray recursive(JsonObject node, List<SysMenu> sysMenus){
+    private JsonArray recursive(JsonObject node, List<SysMenu> sysMenus) {
         JsonArray result = new JsonArray();
-        for (SysMenu each:sysMenus){
-            if (StringUtils.equals(node.get("id").getAsString(),each.getParentId())){
+        for (SysMenu each : sysMenus) {
+            if (StringUtils.equals(node.get("id").getAsString(), each.getParentId())) {
                 JsonObject jsonEach = new Gson().toJsonTree(each).getAsJsonObject();
-                if (StringUtils.isNotBlank(each.getParentId())){
-                    jsonEach.add("childs",recursive(jsonEach,sysMenus));
-                }
+//                递归查找当前节点的子节点
+                jsonEach.add("childs", recursive(jsonEach, sysMenus));
                 result.add(jsonEach);
             }
         }
