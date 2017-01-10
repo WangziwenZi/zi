@@ -66,6 +66,6 @@ public class MenuController extends ServiceImplFactory {
     public Result findByUserId() {
         List<SysMenu> data = super.getMenuService().findByUserId();
         JsonArray result = super.getMenuService().toJson(data);
-        return new Result(SysConstant.TRUE.isBooValue(), result);
+        return new Result(SysConstant.TRUE.isBooValue(), result.toString());
     }
 }
