@@ -32,42 +32,82 @@
                     <i class="icon-fighter-jet icon-3x blue"></i>
                 </span>
         </div>
-        <div style="height: 404px;">
-            <div class="node panel-default">
-                <div style="border-bottom:1px solid transparent">
-                    <a data-toggle="collapse" href="#collapseOne"><i class="icon-laptop"></i><span>我的工作空间</span></a>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse child" role="tabpanel"
-                     aria-labelledby="headingOne">
-                    <a data-toggle="collapse"><i class="icon-laptop"></i><span>我的工作空间</span></a>
-                    <a data-toggle="collapse"><i class="icon-laptop"></i><span>我的工作空间</span></a>
-                    <a data-toggle="collapse"><i class="icon-laptop"></i><span>我的工作空间</span></a>
-                    <a data-toggle="collapse"><i class="icon-laptop"></i><span>我的工作空间</span></a>
-                </div>
-            </div>
+        <div id="menuTemplate" style="height: 404px;">
         </div>
     </div>
 </div>
 <script type="text/javascript">
     try {
-        (function () {
-//            下拉菜单效果
-            $(".node a").bind("click", function () {
-                if (!$(this).prop("href")) {
-                    $(".node a").removeClass("active");
-                    $(this).addClass("active");
-                }
-            })
-
+        function init() {
             $.ajax({
                 url: "/menu/findByUserId.htm",
                 type: "post",
                 dataType: "json",
                 success: function (data) {
                     console.info(data);
+                    var result = data.message;
+                    methods.menuTemplate(JSON.parse(result), $("#menuTemplate"))
                 }
             })
-        })();
+            methods.menuClick();
+        }
+
+        var methods = {
+            menuTemplate: function (nodes, parentNode, parentId, left) {
+                var paddingLeft = 0.8
+                if (parseInt(left) >= 0)
+                    paddingLeft = left + parseInt(1.8);
+                $.each(nodes, function (i, j) {
+                    if (j) {
+                        var node = methods.titleTemp(j.title, j.ico, j.id, paddingLeft);
+                        if (j.childs) {
+                            var body = methods.bodyTemp(j.id, node);
+                            node.append(body);
+                            methods.menuTemplate(j.childs, node, j.id, paddingLeft);
+                        }
+                        if (parentId)
+                            $(parentNode).find("#" + parentId).append(node);
+                        else
+                            $(parentNode).append(node);
+                    }
+                })
+            },
+            titleTemp: function (title, ico, id, left) {
+                var panel = $('<div class="node panel-default"></div>');
+                var div = $('<div style="border-bottom:1px solid transparent"></div>');
+                var a = $('<a data-toggle="collapse" href=""></a>');
+                var i = $('<i class=""></i>');
+                var span = $('<span></span>');
+
+                a.css("padding-left", left + "em");
+                a.prop("href", "#" + id);
+                i.prop("class", ico);
+                span.html(title);
+
+                a.append(i).append(span);
+                panel.append(div.append(a));
+                return panel;
+            },
+            bodyTemp: function (id) {
+                var div = $('<div class="panel-collapse collapse child" role="tabpanel" aria-labelledby="headingOne">');
+                div.prop("id", id);
+                return div;
+            },
+            menuClick: function () {
+                //  下拉菜单效果
+                $(".node a").bind("click", function () {
+                    if (!$(this).prop("href")) {
+                        $(".node a").removeClass("active");
+                        $(this).addClass("active");
+                    }
+                })
+            }
+        };
+
+
+        (function () {
+            init();
+        })()
     } catch (e) {
         window.console && console.log && console.log(e);
         window.Tracker && Tracker.click('onlineServer-error-init-' + e);

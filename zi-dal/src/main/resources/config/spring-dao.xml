@@ -15,6 +15,9 @@
     <!-- 引用shiro配置文件 -->
     <import resource="classpath:config/spring-shiro.xml"/>
 
+    <!--引如redis连接池配置-->
+    <import resource="classpath:config/redis-config.xml"/>
+
     <!-- 配置数据源 -->
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="${jdbc.driverClass}"/>

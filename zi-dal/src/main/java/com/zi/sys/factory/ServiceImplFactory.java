@@ -1,5 +1,6 @@
 package com.zi.sys.factory;
 
+import com.zi.redis.service.MenuRedisService;
 import com.zi.service.MenuService;
 import com.zi.service.UserService;
 import com.zi.sys.common.BaseController;
@@ -15,6 +16,13 @@ public class ServiceImplFactory extends BaseController {
 
     @Autowired
     private MenuService menuService;
+
+    @Autowired
+    private MenuRedisService menuRedisService;
+
+    public MenuRedisService getMenuRedisService() {
+        return menuRedisService;
+    }
 
     public MenuService getMenuService() {
         return menuService;

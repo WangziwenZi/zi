@@ -117,6 +117,7 @@ public class MenuServiceImpl extends MapperFactory implements MenuService {
                 sysAuthorityIds.add(each.getAuthorityId());
             }
 
+//            获取权限列表
             SysAuthorityExample sysAuthorityExample = new SysAuthorityExample();
             sysAuthorityExample.createCriteria().andIdIn(sysAuthorityIds);
             List<SysAuthority> sysAuthorities = super.getSysAuthorityMapper().selectByExample(sysAuthorityExample);

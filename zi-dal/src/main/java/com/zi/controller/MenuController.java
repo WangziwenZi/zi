@@ -1,19 +1,24 @@
 package com.zi.controller;
 
+import com.fasterxml.jackson.databind.util.JSONPObject;
 import com.github.pagehelper.PageInfo;
 import com.google.common.base.Preconditions;
 import com.google.gson.JsonArray;
+import com.google.gson.JsonParser;
 import com.zi.dal.sysmenu.entity.SysMenu;
 import com.zi.dal.sysmenu.entity.SysMenuExample;
 import com.zi.sys.constant.StateCodeConstant;
 import com.zi.sys.constant.SysConstant;
 import com.zi.sys.factory.ServiceImplFactory;
 import com.zi.sys.result.Result;
+import com.zi.sys.util.LoginSysUserUtil;
+import jdk.nashorn.internal.parser.JSONParser;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.security.auth.Subject;
 import java.util.List;
 
 /**
@@ -64,7 +69,11 @@ public class MenuController extends ServiceImplFactory {
     @RequestMapping("findByUserId")
     @ResponseBody
     public Result findByUserId() {
-        List<SysMenu> data = super.getMenuService().findByUserId();
+        List<SysMenu> data = super.getMenuRedisService().findByMenu();
+        if (data.size() <= 0) {
+            data = super.getMenuService().findByUserId();
+            super.getMenuRedisService().saveByUserId(data);
+        }
         JsonArray result = super.getMenuService().toJson(data);
         return new Result(SysConstant.TRUE.isBooValue(), result.toString());
     }

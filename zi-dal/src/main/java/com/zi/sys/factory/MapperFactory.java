@@ -8,6 +8,7 @@ import com.zi.dal.sysroleauthority.dao.SysRoleAuthorityMapper;
 import com.zi.dal.sysrolemenu.dao.SysRoleMenuMapper;
 import com.zi.dal.sysroleuser.dao.SysRoleUserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 
 /**
  * Mapper的工厂类 2016/8/21.
@@ -34,6 +35,13 @@ public class MapperFactory {
 
     @Autowired
     private SysRoleMenuMapper sysRoleMenuMapper;
+
+    @Autowired
+    private RedisTemplate redisTemplate;
+
+    public RedisTemplate getRedisTemplate() {
+        return redisTemplate;
+    }
 
     public SysRoleMenuMapper getSysRoleMenuMapper() {
         return sysRoleMenuMapper;

@@ -11,7 +11,8 @@ public enum SysConstant {
     YES("Y"),
     NO("N"),
     TRUE(true),
-    FALSE(false);
+    FALSE(false),
+    MENU("menu");
 
     private SysConstant(String value) {
         this.value = value;
